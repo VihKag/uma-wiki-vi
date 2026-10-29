@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uma Wiki VI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo">🐎</span>
+      <div>
+        <h1>Uma Wiki VI</h1>
+        <p class="sub" id="meta">Đang tải dữ liệu…</p>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <a href="#cards" data-tab="cards">Support Card</a>
+      <a href="#skills" data-tab="skills">Kỹ năng</a>
+      <a href="#effects" data-tab="effects">Giải thích chỉ số</a>
+    </nav>
+    <button id="theme" class="icon-btn" title="Đổi giao diện sáng/tối">◐</button>
+  </header>
+
+  <main>
+    <!-- SUPPORT CARDS -->
+    <section id="tab-cards" class="tab" hidden>
+      <div class="toolbar">
+        <input id="card-q" type="search" placeholder="Tìm tên nhân vật / tên card…">
+        <div class="chips" id="card-type"></div>
+        <div class="chips" id="card-rarity"></div>
+      </div>
+      <p class="count" id="card-count"></p>
+      <div class="card-grid" id="card-grid"></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="tab-skills" class="tab" hidden>
+      <div class="toolbar">
+        <input id="skill-q" type="search" placeholder="Tìm kỹ năng (tiếng Việt / English / 日本語)…">
+        <select id="skill-rarity">
+          <option value="">Mọi độ hiếm</option>
+          <option value="1">Thường (trắng)</option>
+          <option value="2">Hiếm (vàng)</option>
+          <option value="u">Độc nhất</option>
+        </select>
+        <select id="skill-eff">
+          <option value="">Mọi hiệu ứng</option>
+          <option value="27">Tốc độ</option>
+          <option value="31">Gia tốc</option>
+          <option value="9">Hồi thể lực</option>
+          <option value="28">Chuyển làn</option>
+          <option value="stat">Tăng chỉ số (xanh)</option>
+          <option value="debuff">Gây bất lợi</option>
+        </select>
+        <select id="skill-sort">
+          <option value="default">Sắp xếp mặc định</option>
+          <option value="name">Theo tên (A→Z)</option>
+          <option value="cost">Theo giá SP</option>
+        </select>
+        <label class="toggle"><input type="checkbox" id="show-en" checked> Hiện mô tả tiếng Anh</label>
+      </div>
+      <div class="chips" id="skill-tags"></div>
+      <p class="count" id="skill-count"></p>
+      <div class="skill-list" id="skill-list"></div>
+    </section>
+
+    <!-- EFFECTS -->
+    <section id="tab-effects" class="tab" hidden>
+      <div class="intro">
+        <h2>Các chỉ số trên Support Card nghĩa là gì?</h2>
+        <p>Mỗi support card có một bộ <b>hiệu ứng</b>. Giá trị của chúng tăng theo level của card (Lv tối đa: R 40, SR 45, SSR 50; mỗi lần đột phá giới hạn mở thêm 5 level).
+          Ngoài ra mỗi card SR/SSR có một <b>Hiệu ứng Độc nhất</b>, mở khóa khi đạt level nhất định, và các <b>kỹ năng gợi ý</b> nhận được qua sự kiện "!".</p>
+      </div>
+      <div class="effect-table" id="effect-table"></div>
+    </section>
+  </main>
+
+  <dialog id="modal">
+    <button class="close icon-btn" aria-label="Đóng">✕</button>
+    <div id="modal-body"></div>
+  </dialog>
+
+  <footer>
+    Dữ liệu và hình ảnh: <a href="https://gametora.com/umamusume" target="_blank" rel="noopener">GameTora</a> · Umamusume: Pretty Derby © Cygames.
+    Đây là trang tra cứu do người hâm mộ tự làm, không phải trang chính thức.
+  </footer>
+
+  <script src="data/data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
