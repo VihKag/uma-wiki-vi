@@ -270,6 +270,118 @@
     </article>`;
   }
 
+  /* ---------- Champions Meeting tab ---------- */
+  const CML = L.cm || {};
+  const PHASES = ["Đầu chặng", "Giữa chặng", "Cuối chặng", "Nước rút cuối"];
+  const GROUP_ORDER = ["track_id", "distance_type", "rotation", "ground_type", "ground_condition", "season", "weather", "is_basis_distance"];
+  const fmtDate = (t) => new Date(t * 1000).toLocaleDateString("vi-VN", { day: "2-digit", month: "2-digit", year: "numeric" });
+  const DAY = 86400;
+
+  function cmStatus(c, now) {
+    if (!c.estimated && c.start <= now && now <= c.end) return "live";
+    if (c.start > now) return "next";
+    return c.estimated ? "next" : "past"; // kỳ dự kiến đã quá ngày dự đoán nhưng chưa được công bố: coi như sắp diễn ra
+  }
+
+  function renderCM() {
+    const now = Date.now() / 1000;
+    const live = D.cm.filter((c) => cmStatus(c, now) === "live");
+    const next = D.cm.filter((c) => cmStatus(c, now) === "next").sort((a, b) => a.start - b.start).slice(0, 2);
+    const past = D.cm.filter((c) => cmStatus(c, now) === "past").sort((a, b) => b.start - a.start).slice(0, 3);
+    $("#cm-list").innerHTML = [...live, ...next].map((c) => cmCard(c, now)).join("") ||
+      `<p class="count">Chưa có thông tin kỳ Champions Meeting sắp tới.</p>`;
+    $("#cm-past").innerHTML = past.map((c) => cmCard(c, now)).join("");
+  }
+
+  function cmCard(c, now) {
+    const st = cmStatus(c, now);
+    const r = c.race, k = c.course;
+    const vi = CML.cups?.[c.name];
+    const days = Math.ceil((c.start - now) / DAY);
+    const when = c.estimated
+      ? `Dự kiến khoảng <b>${fmtDate(c.start)}</b>`
+      : `<b>${fmtDate(c.start)}</b> → <b>${fmtDate(c.end)}</b>`;
+    const statusBadge = {
+      live: `<span class="cm-st live">● Đang diễn ra · còn ${Math.max(0, Math.ceil((c.end - now) / DAY))} ngày</span>`,
+      next: `<span class="cm-st next">${days > 0 ? `Sắp diễn ra · còn ~${days} ngày` : "Sắp diễn ra"}</span>`,
+      past: `<span class="cm-st past">Đã kết thúc</span>`,
+    }[st];
+    const info = [
+      ["🏟️", "Trường đua", (CML.tracks?.[r.track] || `#${r.track}`) + (k && CML.inout?.[k.inout] ? ` · ${CML.inout[k.inout]}` : "")],
+      ["📏", "Cự ly", `${r.distance}m · ${CML.distance?.[c.distanceType] || ""}`],
+      ["🌱", "Loại sân", CML.ground?.[r.ground]],
+      ["↻", "Hướng chạy", CML.turn?.[r.turn]],
+      ["🍂", "Mùa", CML.season?.[r.season]],
+      ["☀️", "Thời tiết", CML.weather?.[r.weather]],
+      ["💧", "Mặt sân", CML.condition?.[r.condition]],
+      ...(k?.stats?.length ? [["⭐", "Chỉ số thưởng của đường đua", k.stats.map((s) => CML.statThresholds?.[s] || s).join(", ")]] : []),
+    ];
+    return `<article class="cm-card cm-${st}">
+      <header class="cm-head">
+        <div class="cm-no">CM<b>${c.id}</b></div>
+        <div class="cm-title">
+          <h2>${esc(c.name)}${vi ? ` <small>${esc(vi)}</small>` : ""}</h2>
+          <div class="cm-when">${statusBadge}<span>${when}</span>${c.estimated ? `<span class="badge">dự kiến</span>` : ""}</div>
+        </div>
+      </header>
+      <div class="cm-info">${info.map(([i, l, v]) => `<div><span class="ci">${i}</span><span><small>${l}</small>${esc(v || "?")}</span></div>`).join("")}</div>
+      ${k ? courseMap(r.distance, k) : ""}
+      ${cmSkills(c)}
+    </article>`;
+  }
+
+  // Sơ đồ đường đua dạng thanh ngang: giai đoạn / cua – thẳng / dốc, kèm vạch bắt đầu nước rút
+  function courseMap(len, k) {
+    const W = 1000, x = (m) => (m / len) * W;
+    const seg = (y, h, a, b, cls, label = "") => {
+      const w = Math.max(0, x(b) - x(a));
+      return `<rect x="${x(a)}" y="${y}" width="${w}" height="${h}" class="${cls}"><title>${esc(label)} ${a}–${b}m</title></rect>` +
+        (label && w > 70 ? `<text x="${x(a) + w / 2}" y="${y + h / 2 + 5}" class="lbl">${esc(label)}</text>` : "");
+    };
+    const ticks = [];
+    for (let m = 0; m <= len; m += len > 2400 ? 400 : 200) ticks.push(`<text x="${Math.min(W - 18, Math.max(18, x(m)))}" y="140" class="tick">${m}</text>`);
+    const svg = `<svg viewBox="0 0 ${W} 146" class="course" role="img" aria-label="Sơ đồ đường đua">
+      ${k.phases.map((p) => seg(0, 30, p.start, p.end, `ph ph${p.id}`, PHASES[p.id])).join("")}
+      ${k.straights.map((s) => seg(40, 30, s.start, s.end, "st", s.end === len ? "Thẳng cuối" : "Đoạn thẳng")).join("")}
+      ${k.corners.map((s) => seg(40, 30, s.start, s.end, "co", `Cua ${s.number}`)).join("")}
+      <rect x="0" y="80" width="${W}" height="30" class="flat"/>
+      ${k.slopes.map((s) => seg(80, 30, s.start, s.end, s.slope > 0 ? "up" : "down", s.slope > 0 ? "▲ Dốc lên" : "▼ Dốc xuống")).join("")}
+      ${k.spurt != null ? `<line x1="${x(k.spurt)}" x2="${x(k.spurt)}" y1="0" y2="118" class="spurt"/>` : ""}
+      ${ticks.join("")}
+    </svg>`;
+    const lst = (arr, f) => arr.map(f).join(" · ") || "—";
+    const lastStraight = k.straights.find((s) => s.end === len);
+    return `<div class="cm-course">
+      <div class="legend"><span class="lg ph0"></span>Giai đoạn đua <span class="lg co"></span>Khúc cua <span class="lg st"></span>Đoạn thẳng
+        <span class="lg up"></span>Dốc lên <span class="lg down"></span>Dốc xuống <span class="lg spurt"></span>Bắt đầu nước rút</div>
+      <div class="svg-wrap">${svg}</div>
+      <ul class="course-facts">
+        <li><b>Khúc cua:</b> ${lst(k.corners, (c) => `Cua ${c.number} (${c.start}–${c.end}m)`)}</li>
+        <li><b>Đoạn thẳng:</b> ${lst(k.straights, (s) => `${s.start}–${s.end}m${s.frontType === 1 ? " (trước khán đài)" : s.frontType === 2 ? " (phía đối diện)" : ""}`)}</li>
+        ${lastStraight ? `<li><b>Đoạn thẳng cuối dài:</b> ${len - lastStraight.start}m</li>` : ""}
+        <li><b>Dốc:</b> ${lst(k.slopes, (s) => `${s.slope > 0 ? "lên" : "xuống"} ${s.start}–${s.end}m`)}</li>
+        ${k.spurt != null ? `<li><b>Bắt đầu Cuối chặng / nước rút:</b> ${k.spurt}m</li>` : ""}
+      </ul>
+    </div>`;
+  }
+
+  function cmSkills(c) {
+    const groups = {};
+    for (const [id, hits] of c.skills) {
+      const key = GROUP_ORDER.find((g) => hits.includes(g)) || hits[0];
+      (groups[key] ||= []).push(id);
+    }
+    const blocks = GROUP_ORDER.filter((g) => groups[g]).map((g) => {
+      const ids = groups[g].map((id) => skillById.get(id)).filter(Boolean)
+        .sort((a, b) => (b.rarity >= 3) - (a.rarity >= 3) || b.rarity - a.rarity).map((s) => s.id);
+      return `<details class="cm-group" ${ids.length <= 8 ? "open" : ""}>
+        <summary>${esc(CML.matchGroups?.[g] || g)} <span class="badge">${ids.length}</span></summary>
+        ${miniSkills(ids)}
+      </details>`;
+    });
+    return `<h4 class="sec">Kỹ năng phù hợp với đường đua · ${c.skills.length}</h4>${blocks.join("")}`;
+  }
+
   /* ---------- Effects tab ---------- */
   function renderEffects() {
     $("#effect-table").innerHTML = D.effects.filter((e) => e.vi || e.en).map((e) => `
@@ -318,7 +430,7 @@
     currentTab = tab;
     document.querySelectorAll(".tab").forEach((t) => (t.hidden = t.id !== "tab-" + tab));
     document.querySelectorAll(".tabs a").forEach((a) => a.classList.toggle("active", a.dataset.tab === tab));
-    if (!rendered[tab]) { rendered[tab] = true; ({ cards: renderCards, skills: renderSkills, effects: renderEffects })[tab](); }
+    if (!rendered[tab]) { rendered[tab] = true; ({ cards: renderCards, skills: renderSkills, cm: renderCM, effects: renderEffects })[tab](); }
   }
   function route() {
     const [kind, id] = location.hash.slice(1).split("/");
@@ -326,7 +438,7 @@
     if (kind === "card" && cardById.has(+id)) { if (!rendered[currentTab]) showTab(currentTab); cardDetail(cardById.get(+id)); return; }
     if (kind === "skill" && skillById.has(+id)) { if (!rendered[currentTab]) showTab(currentTab); skillDetail(skillById.get(+id)); return; }
     if (modal.open) modal.close();
-    showTab(["cards", "skills", "effects"].includes(kind) ? kind : "cards");
+    showTab(["cards", "skills", "cm", "effects"].includes(kind) ? kind : "cards");
   }
   addEventListener("hashchange", route);
   route();
