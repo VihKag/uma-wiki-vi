@@ -104,6 +104,15 @@
     sync();
   }
 
+  // Nút "Bộ lọc" (chỉ hiện trên điện thoại): mở/đóng khung lọc, hiển thị số bộ lọc đang bật
+  document.querySelectorAll(".filter-btn").forEach((btn) => {
+    btn.onclick = () => btn.classList.toggle("open", $("#" + btn.dataset.for).classList.toggle("open"));
+  });
+  function setFilterCount(id, n) {
+    const el = $(`.filter-btn[data-for="${id}"] .fcount`);
+    if (el) el.textContent = n ? n : "";
+  }
+
   /* ---------- Support cards tab ---------- */
   const cs = { q: "", type: "", rarity: "", render: renderCards };
   chips($("#card-type"), Object.entries(L.cardTypes), cs, "type");
@@ -116,12 +125,13 @@
       (!cs.rarity || String(c.rarity) === cs.rarity) &&
       (!cs.q || `${c.name} ${c.title}`.toLowerCase().includes(cs.q)));
     $("#card-count").textContent = `${list.length} card`;
+    setFilterCount("card-filters", (cs.type ? 1 : 0) + (cs.rarity ? 1 : 0));
     $("#card-grid").innerHTML = list.map((c) => `
-      <div class="card-tile" data-card="${c.id}" title="${esc(c.name + " " + c.title)}">
+      <div class="card-tile" data-card="${c.id}" data-type="${c.type}" title="${esc(c.name + " " + c.title)}">
         <img src="${cardImg(c)}" alt="" loading="lazy" width="132" height="176">
         <div class="nm">${esc(c.name)}</div>
         <div class="tl">${esc(c.title)}</div>
-        <div style="margin-top:4px">${rarBadge(c.rarity)} ${typeBadge(c.type)}</div>
+        <div class="bd">${rarBadge(c.rarity)} ${typeBadge(c.type)}</div>
       </div>`).join("");
   }
 
@@ -151,12 +161,12 @@
         <div class="unique-box"><ul>${c.unique.effects.map((e) => `<li>${uniqueText(e)}</li>`).join("")}</ul>
         <small>Các hiệu ứng thường được cộng thẳng vào bảng trên (đánh dấu ★) khi card đạt level mở khóa.</small></div>` : ""}
       ${c.hintOthers.length ? `<h4 class="sec">Gợi ý chỉ số (sự kiện "!")</h4>
-        <div class="meta">${c.hintOthers.map((h) => `<span class="badge">${esc(L.hintStats[h.hint_type] || "#" + h.hint_type)} +${h.hint_value}</span>`).join(" ")}</div>` : ""}
+        <div class="hint-stats">${c.hintOthers.map((h) => `<span class="badge">${esc(L.hintStats[h.hint_type] || "#" + h.hint_type)} +${h.hint_value}</span>`).join(" ")}</div>` : ""}
       <h4 class="sec">Kỹ năng gợi ý (Hint) · ${c.hintSkills.length}</h4>
       ${miniSkills(c.hintSkills)}
       <h4 class="sec">Kỹ năng từ sự kiện · ${c.eventSkills.length}</h4>
       ${miniSkills(c.eventSkills)}`;
-    openModal(html);
+    openModal(html, `${c.name} ${c.title}`);
 
     const lvInput = $("#lv");
     const update = () => {
@@ -199,9 +209,13 @@
   $("#skill-eff").onchange = (e) => { ss.eff = e.target.value; renderSkills(); };
   $("#skill-sort").onchange = (e) => { ss.sort = e.target.value; renderSkills(); };
   const showEn = $("#show-en");
-  try { showEn.checked = localStorage.getItem("uma-show-en") !== "0"; } catch {}
-  const syncEn = () => { document.body.classList.toggle("hide-en", !showEn.checked); try { localStorage.setItem("uma-show-en", showEn.checked ? "1" : "0"); } catch {} };
-  showEn.onchange = syncEn; syncEn();
+  // Mặc định: máy tính hiện mô tả EN, điện thoại ẩn cho gọn (tên EN luôn hiện)
+  let savedEn = null;
+  try { savedEn = localStorage.getItem("uma-show-en"); } catch {}
+  showEn.checked = savedEn ? savedEn === "1" : !matchMedia("(max-width: 640px)").matches;
+  const syncEn = () => document.body.classList.toggle("hide-en", !showEn.checked);
+  showEn.onchange = () => { syncEn(); try { localStorage.setItem("uma-show-en", showEn.checked ? "1" : "0"); } catch {} };
+  syncEn();
 
   const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d");
   const searchIdx = new Map(D.skills.map((s) => [s.id, norm([s.vi, s.viDesc, s.en, s.enDesc, s.jp].join(" "))]));
@@ -224,6 +238,7 @@
     if (ss.sort === "name") list = [...list].sort((a, b) => skillName(a).localeCompare(skillName(b), "vi"));
     if (ss.sort === "cost") list = [...list].sort((a, b) => (a.cost ?? 1e9) - (b.cost ?? 1e9));
     $("#skill-count").textContent = `${list.length} kỹ năng`;
+    setFilterCount("skill-filters", (ss.rarity ? 1 : 0) + (ss.eff ? 1 : 0) + ss.tags.size);
     $("#skill-list").innerHTML = list.map(skillCard).join("");
   }
 
@@ -267,7 +282,12 @@
 
   /* ---------- Modal & routing ---------- */
   const modal = $("#modal");
-  function openModal(html) { $("#modal-body").innerHTML = html; if (!modal.open) modal.showModal(); modal.scrollTop = 0; }
+  function openModal(html, title = "") {
+    $("#modal-title").textContent = title;
+    $("#modal-body").innerHTML = html;
+    if (!modal.open) modal.showModal();
+    modal.scrollTop = 0;
+  }
   $("#modal .close").onclick = () => modal.close();
   modal.addEventListener("click", (e) => { if (e.target === modal) modal.close(); });
   modal.addEventListener("close", () => { if (/^#(card|skill)\//.test(location.hash)) history.replaceState(null, "", "#" + currentTab); });
@@ -278,12 +298,12 @@
         <div><h2>${esc(skillName(s))}</h2><div class="count" style="margin:0">${esc(s.en)} · ${esc(s.jp || "")}</div></div></div>
       ${skillCard(s).replace('class="skill', 'style="margin-top:14px" class="skill')}
       <h4 class="sec">Card cho gợi ý (Hint) · ${s.hint.length}</h4>${cardRow(s.hint)}
-      <h4 class="sec">Card cho qua sự kiện · ${s.event.length}</h4>${cardRow(s.event)}`);
+      <h4 class="sec">Card cho qua sự kiện · ${s.event.length}</h4>${cardRow(s.event)}`, skillName(s));
   }
   const cardRow = (ids) => ids.length
     ? `<div class="card-grid">${ids.map((id) => cardById.get(id)).filter(Boolean).map((c) => `
-        <div class="card-tile" data-card="${c.id}"><img src="${cardImg(c)}" alt="" loading="lazy">
-          <div class="nm">${esc(c.name)}</div><div>${rarBadge(c.rarity)} ${typeBadge(c.type)}</div></div>`).join("")}</div>`
+        <div class="card-tile" data-card="${c.id}" data-type="${c.type}"><img src="${cardImg(c)}" alt="" loading="lazy">
+          <div class="nm">${esc(c.name)}</div><div class="bd">${rarBadge(c.rarity)} ${typeBadge(c.type)}</div></div>`).join("")}</div>`
     : `<p class="count">Không có.</p>`;
 
   document.addEventListener("click", (e) => {
