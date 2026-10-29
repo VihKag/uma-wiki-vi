@@ -1,0 +1,64 @@
+{
+  "effects": {
+    "1":  { "name": "Thưởng Tình bạn", "desc": "Tăng hiệu quả của Luyện tập Tình bạn (khung cầu vồng). Đây là chỉ số quan trọng nhất của card luyện tập: nhân thẳng vào lượng chỉ số nhận được khi card phát Tình bạn." },
+    "2":  { "name": "Hiệu quả Tâm trạng", "desc": "Khuếch đại phần thưởng từ tâm trạng (Mood) khi luyện tập cùng card. Mood càng cao (Tuyệt vời) thì chỉ số này càng có giá trị." },
+    "3":  { "name": "Thưởng Speed", "desc": "Cộng thêm Speed mỗi lần luyện tập cùng card." },
+    "4":  { "name": "Thưởng Stamina", "desc": "Cộng thêm Stamina mỗi lần luyện tập cùng card." },
+    "5":  { "name": "Thưởng Power", "desc": "Cộng thêm Power mỗi lần luyện tập cùng card." },
+    "6":  { "name": "Thưởng Guts", "desc": "Cộng thêm Guts mỗi lần luyện tập cùng card." },
+    "7":  { "name": "Thưởng Wit", "desc": "Cộng thêm Wit (Trí tuệ) mỗi lần luyện tập cùng card." },
+    "8":  { "name": "Hiệu quả Luyện tập", "desc": "Tăng % toàn bộ chỉ số nhận được từ buổi tập có card tham gia, kể cả khi không phải Tình bạn." },
+    "9":  { "name": "Speed khởi đầu", "desc": "Cộng Speed ngay khi bắt đầu một lượt Career." },
+    "10": { "name": "Stamina khởi đầu", "desc": "Cộng Stamina ngay khi bắt đầu một lượt Career." },
+    "11": { "name": "Power khởi đầu", "desc": "Cộng Power ngay khi bắt đầu một lượt Career." },
+    "12": { "name": "Guts khởi đầu", "desc": "Cộng Guts ngay khi bắt đầu một lượt Career." },
+    "13": { "name": "Wit khởi đầu", "desc": "Cộng Wit ngay khi bắt đầu một lượt Career." },
+    "14": { "name": "Thanh Tình bạn khởi đầu", "desc": "Thanh gắn kết (Bond) của card bắt đầu ở mức cao hơn, giúp card sớm đạt ngưỡng 80 để kích hoạt Tình bạn." },
+    "15": { "name": "Thưởng Đua", "desc": "Tăng lượng chỉ số nhận được sau mỗi cuộc đua. Rất hữu ích cho lối chơi đua nhiều." },
+    "16": { "name": "Thưởng Fan", "desc": "Tăng số fan nhận được từ các cuộc đua." },
+    "17": { "name": "Cấp Gợi ý", "desc": "Tăng cấp độ gợi ý kỹ năng (Hint) nhận từ sự kiện của card, giúp giảm giá điểm kỹ năng khi học." },
+    "18": { "name": "Tần suất Gợi ý", "desc": "Tăng xác suất card xuất hiện biểu tượng \"!\" (sự kiện gợi ý) khi luyện tập." },
+    "19": { "name": "Ưu tiên Chuyên môn", "desc": "Tăng xác suất card xuất hiện ở khu luyện tập đúng loại của nó (ví dụ card Speed xuất hiện ở bài tập Speed), từ đó dễ có Tình bạn hơn." },
+    "20": { "name": "Speed tối đa", "desc": "Nâng giới hạn tối đa của Speed trong lượt Career." },
+    "21": { "name": "Stamina tối đa", "desc": "Nâng giới hạn tối đa của Stamina trong lượt Career." },
+    "22": { "name": "Power tối đa", "desc": "Nâng giới hạn tối đa của Power trong lượt Career." },
+    "23": { "name": "Guts tối đa", "desc": "Nâng giới hạn tối đa của Guts trong lượt Career." },
+    "24": { "name": "Wit tối đa", "desc": "Nâng giới hạn tối đa của Wit trong lượt Career." },
+    "25": { "name": "Hồi phục từ Sự kiện", "desc": "Tăng lượng Năng lượng (Energy) hồi phục từ các sự kiện của card này." },
+    "26": { "name": "Hiệu quả Sự kiện", "desc": "Tăng lượng chỉ số nhận được từ các sự kiện của card này." },
+    "27": { "name": "Bảo vệ Thất bại", "desc": "Giảm tỷ lệ thất bại khi luyện tập cùng card." },
+    "28": { "name": "Giảm tiêu hao Năng lượng", "desc": "Giảm lượng Năng lượng tiêu hao khi luyện tập cùng card." },
+    "29": { "name": "Hiệu quả Minigame", "desc": "Tăng chỉ số nhận được từ minigame." },
+    "30": { "name": "Thưởng Điểm kỹ năng", "desc": "Cộng thêm Điểm kỹ năng (SP) mỗi lần luyện tập cùng card." },
+    "31": { "name": "Hồi phục Tình bạn Wit", "desc": "Tăng lượng Năng lượng hồi phục khi thực hiện Luyện tập Tình bạn Wit." },
+    "32": { "name": "Hiệu ứng đặc biệt", "desc": "Hiệu ứng đặc biệt của card." },
+    "33": { "name": "Thưởng Số lượng Gợi ý", "desc": "Tăng số lượng gợi ý kỹ năng nhận được." },
+    "41": { "name": "Thưởng mọi chỉ số", "desc": "Cộng thêm cho tất cả chỉ số khi luyện tập cùng card." },
+    "9991": { "name": "Tăng chỉ số từ Gợi ý", "desc": "Sự kiện gợi ý của card còn cho thêm chỉ số." }
+  },
+  "cardTypes": {
+    "speed": "Speed", "stamina": "Stamina", "power": "Power", "guts": "Guts",
+    "intelligence": "Wit", "friend": "Bạn bè (Friend)", "group": "Nhóm (Group)"
+  },
+  "obtained": {
+    "gacha": "Gacha", "story_event": "Sự kiện cốt truyện", "limited_quest": "Nhiệm vụ giới hạn",
+    "shop": "Cửa hàng", "main_story": "Cốt truyện chính", "promo": "Quà khuyến mãi"
+  },
+  "hintStats": { "1": "Speed", "2": "Stamina", "3": "Power", "4": "Guts", "5": "Wit", "30": "Điểm kỹ năng" },
+  "skillRarity": {
+    "1": "Thường (trắng)", "2": "Hiếm (vàng)", "3": "Độc nhất", "4": "Độc nhất", "5": "Độc nhất", "6": "Tiến hóa"
+  },
+  "skillTags": {
+    "run": "Chạy đầu", "ldr": "Bám đuổi", "btw": "Bứt tốc", "cha": "Rượt cuối",
+    "sho": "Ngắn", "mil": "Dặm", "med": "Trung", "lng": "Dài",
+    "tur": "Sân cỏ", "dir": "Sân đất",
+    "l_0": "Đầu chặng", "l_1": "Giữa chặng", "l_2": "Cuối chặng", "l_3": "Nước rút",
+    "cor": "Khúc cua", "str": "Đoạn thẳng", "slo": "Dốc", "f_c": "Cua cuối", "f_s": "Thẳng cuối",
+    "dbf": "Gây bất lợi", "nac": "Cần điều kiện vị trí"
+  },
+  "skillEffects": {
+    "1": "Speed", "2": "Stamina", "3": "Power", "4": "Guts", "5": "Wit",
+    "9": "Hồi thể lực", "21": "Tốc độ", "22": "Tốc độ", "27": "Tốc độ",
+    "28": "Chuyển làn", "31": "Gia tốc"
+  }
+}

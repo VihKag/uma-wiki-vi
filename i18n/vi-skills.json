@@ -1,0 +1,2518 @@
+{
+ "10071": {
+  "name": "Phát Súng Cảnh Cáo!",
+  "desc": "Tăng nhẹ tốc độ nhờ cú nước rút dài bắt đầu từ nửa chặng đua."
+ },
+ "10081": {
+  "name": "Xceleration",
+  "desc": "Trở nên mạnh mẽ hơn khi tranh đua với đối thủ và tăng tốc độ vừa phải khi ở nhóm đầu lúc còn 200m hoặc ít hơn."
+ },
+ "10091": {
+  "name": "Át Chủ Bài Đỏ",
+  "desc": "Tràn đầy quyết tâm giành vị trí số một ở mức nhẹ khi ở nhóm đầu trong nửa sau cuộc đua."
+ },
+ "10111": {
+  "name": "Tâm Trí Tập Trung",
+  "desc": "Tăng tốc độ vừa phải nhờ cú bứt phá mạnh mẽ khi vượt đối thủ ở nhóm sau trên đoạn thẳng cuối."
+ },
+ "10141": {
+  "name": "Corazón ☆ Ardiente",
+  "desc": "Giữ vững lợi thế ở mức nhẹ khi ở nhóm đầu và vẫn còn dư sức trên đoạn thẳng cuối."
+ },
+ "10181": {
+  "name": "Niềm Kiêu Hãnh Nữ Hoàng",
+  "desc": "Tăng tốc độ vừa phải với sải bước của nữ hoàng khi vượt đối thủ từ giữa nhóm hoặc xa hơn về phía sau ở khúc cua cuối."
+ },
+ "10241": {
+  "name": "Nụ Hôn Hạng Nhất☆",
+  "desc": "Tăng nhẹ khả năng luồn lách trên đoạn thẳng sau khi tranh đua ở nhóm đầu từ khúc cua cuối trở đi."
+ },
+ "10271": {
+  "name": "Cảm Nhận Sức Nóng!",
+  "desc": "Tăng gia tốc vừa phải để cố gắng tiến lên ở khúc cua vào cuối chặng."
+ },
+ "10321": {
+  "name": "Nhập Môn Sinh Lý Học",
+  "desc": "Hồi thể lực vừa phải và tăng nhẹ tốc độ trong thời gian vừa phải khi bám phía sau nhóm dẫn đầu ở khúc cua trong nửa sau cuộc đua."
+ },
+ "10351": {
+  "name": "V Là Victory!",
+  "desc": "Tăng tốc độ vừa phải với khát khao chiến thắng khi ở nhóm đầu trên đoạn thẳng cuối, sau khi tranh đua từ khúc cua cuối trở đi."
+ },
+ "10411": {
+  "name": "Lớp Trưởng + Tốc Độ = Bakushin",
+  "desc": "Tăng tốc độ vừa phải bằng sức mạnh BAKUSHIN khi đang tranh đua ở nhóm đầu trong nửa sau cuộc đua."
+ },
+ "10451": {
+  "name": "Trái Tim Trong Trẻo",
+  "desc": "Hồi thể lực khi ở vị trí thuận lợi giữa chặng."
+ },
+ "10521": {
+  "name": "Siêu Cấp Hào Hứng",
+  "desc": "Hồi thể lực vừa phải khi liếc nhìn các đối thủ xung quanh lúc ở nhóm sau tại khúc cua cuối."
+ },
+ "10561": {
+  "name": "May Mắn Hãy Ở Bên Tôi!",
+  "desc": "Mở đường tiến lên ở mức vừa phải bằng sức mạnh bói toán khi phía trước bị chắn vào cuối chặng."
+ },
+ "10601": {
+  "name": "Thỉnh Thoảng Mình Cũng Thắng Được Chứ?",
+  "desc": "Tăng tốc độ vừa phải nhờ tinh thần chiến đấu trỗi dậy khi đang ở hạng 3 và sắp thua vào cuối chặng."
+ },
+ "10611": {
+  "name": "Hãy Gọi Ta Là Vua",
+  "desc": "Tăng tốc độ, thể hiện thực lực thật sự khi còn 200m sau khi đã đua một cách điềm tĩnh."
+ },
+ "10621": {
+  "name": "Sẵn sàng, xuất phát!",
+  "desc": "Hồi thể lực vừa phải và tăng nhẹ tốc độ với quyết tâm mới khi ở giữa nhóm vào khoảng giữa cuộc đua."
+ },
+ "100011": {
+  "name": "Sao Băng",
+  "desc": "Tận dụng đà để vươn lên và tăng rất nhẹ gia tốc sau khi vượt đối thủ ở nhóm đầu vào cuối chặng."
+ },
+ "100021": {
+  "name": "Khung Cảnh Dẫn Đầu Là Của Ta!",
+  "desc": "Tăng tốc độ bằng cách dồn toàn bộ sức lực còn lại khi dẫn đầu với khoảng cách khá xa trong nửa sau cuộc đua."
+ },
+ "100031": {
+  "name": "Teio Step Vút Tận Trời",
+  "desc": "Khi thu hẹp khoảng cách với các đối thủ phía trước vào cuối chặng, tăng mạnh tốc độ bằng bộ bước chân hoa mỹ trên đoạn thẳng cuối."
+ },
+ "100041": {
+  "name": "Red Shift/LP1211-M",
+  "desc": "Tăng gia tốc bằng cách sang số khi ở nhóm đầu từ khúc cua cuối trở đi."
+ },
+ "100051": {
+  "name": "Ánh đèn sân khấu tạp kỹ",
+  "desc": "Khi vừa thoát khỏi đám đông lên nhóm đầu vào cuối chặng, làm mọi người lóa mắt và tăng mạnh tốc độ khi còn 300m."
+ },
+ "100061": {
+  "name": "Nhịp Đập Khải Hoàn",
+  "desc": "Tăng mạnh khả năng luồn lách bằng cách mở ra đường chạy khi ở nhóm đầu lúc còn 200m."
+ },
+ "100071": {
+  "name": "Nhổ Neo!",
+  "desc": "Tăng tốc độ vừa phải một cách đều đặn nhờ cú nước rút dài bắt đầu từ nửa chặng đua."
+ },
+ "100081": {
+  "name": "Cắt Và Bứt Phá!",
+  "desc": "Trở nên mạnh mẽ hơn khi tranh đua với đối thủ và tăng tốc độ khi ở nhóm đầu lúc còn 200m hoặc ít hơn."
+ },
+ "100091": {
+  "name": "Át Chủ Bài Đỏ Rực Rỡ",
+  "desc": "Tràn đầy quyết tâm giành vị trí số một khi ở nhóm đầu trong nửa sau cuộc đua."
+ },
+ "100101": {
+  "name": "Nhắm Tới Chiến Thắng!",
+  "desc": "Tăng gia tốc với một cú bùng nổ đầy ấn tượng khi ở vị trí thuận lợi lúc sắp vào đoạn thẳng cuối."
+ },
+ "100111": {
+  "name": "Có Chí Thì Nên",
+  "desc": "Tăng tốc độ nhờ cú bứt phá mạnh mẽ khi vượt đối thủ ở nhóm sau trên đoạn thẳng cuối."
+ },
+ "100121": {
+  "name": "Cậu và tớ! Một chọi một!",
+  "desc": "Tăng tốc độ trên đoạn thẳng cuối sau khi vượt đối thủ từ phía ngoài khi ở nhóm sau tại khúc cua cuối hoặc sau đó."
+ },
+ "100131": {
+  "name": "Tiếng Gọi Của Phẩm Giá",
+  "desc": "Tăng tốc độ với quyết tâm giữ vị trí dẫn đầu khi ở nhóm đầu tại khúc cua cuối. Nếu đang trong cuộc đua cự ly Dài và vẫn còn sung sức, thay vào đó tăng mạnh tốc độ."
+ },
+ "100141": {
+  "name": "Victoria por plancha ☆",
+  "desc": "Giữ vững lợi thế khi ở nhóm đầu và vẫn còn dư sức trên đoạn thẳng cuối."
+ },
+ "100151": {
+  "name": "Điệu Nhảy Này Dành Cho Vittoria!",
+  "desc": "Tăng tốc độ với vẻ huy hoàng vương giả khi ở nhóm đầu và ở gần đối thủ phía trước hoặc phía sau từ khúc cua cuối trở đi."
+ },
+ "100161": {
+  "name": "Shadow Break",
+  "desc": "Tăng tốc độ với sức mạnh như dã thú khi vượt đối thủ từ phía ngoài ở khúc cua cuối hoặc sau đó. Nếu người dùng kỹ năng đã tranh đấu với đối thủ vào giữa chặng, tăng mạnh tốc độ thay vào đó."
+ },
+ "100171": {
+  "name": "Hãy Chiêm Ngưỡng Thần Uy Của Hoàng Đế",
+  "desc": "Tăng mạnh tốc độ trên đoạn thẳng cuối sau khi vượt đối thủ 3 lần vào cuối chặng."
+ },
+ "100181": {
+  "name": "Niềm Kiêu Hãnh Rực Cháy",
+  "desc": "Tăng tốc độ với sải bước của nữ hoàng khi vượt đối thủ từ giữa nhóm hoặc xa hơn về phía sau ở khúc cua cuối."
+ },
+ "100191": {
+  "name": "OMG! (ﾟ∀ﾟ)  Nước rút cuối cùng! ☆",
+  "desc": "Tăng tốc độ và khả năng luồn lách nhờ niềm hân hoan tột độ khi được ở gần các \"waifu\" quý giá trong gang tấc sau khi vượt đối thủ 2 lần vào cuối chặng."
+ },
+ "100201": {
+  "name": "Mưu tính và sắp đặt",
+  "desc": "Tăng gia tốc vào thời điểm thích hợp khi đang dẫn đầu ở khúc cua vào cuối chặng."
+ },
+ "100211": {
+  "name": "Tia chớp trắng xin nhường đường!",
+  "desc": "Lao vút trên đường đua như tia chớp khi ở vị trí thuận lợi hoặc nhắm lên phía trước từ giữa nhóm trên đoạn thẳng trong nửa sau cuộc đua."
+ },
+ "100221": {
+  "name": "Truyện cổ tích",
+  "desc": "Tăng tốc độ với niềm hứng khởi khi chạy, khi đang tranh đấu với đối thủ lúc ở vị trí thuận lợi trong nửa sau cuộc đua."
+ },
+ "100231": {
+  "name": "∴win Q.E.D.",
+  "desc": "Tăng tốc độ khi ở nhóm đầu từ khúc cua cuối trở đi vào cuối chặng. Nếu người dùng kỹ năng đã chạy một cách điềm tĩnh, lập ra kế hoạch hoàn hảo và thay vào đó tăng mạnh tốc độ."
+ },
+ "100241": {
+  "name": "Hạ Cánh Rực Rỡ☆",
+  "desc": "Tăng khả năng luồn lách trên đoạn thẳng sau khi tranh đua ở nhóm đầu từ khúc cua cuối trở đi."
+ },
+ "100251": {
+  "name": "Đuổi theo cậu",
+  "desc": "Khi ở giữa nhóm trong nửa sau cuộc đua, tăng tốc độ vừa phải một cách đều đặn để đuổi theo người bạn của Cafe, đồng thời uy hiếp rất nhẹ các đối thủ phía trước."
+ },
+ "100261": {
+  "name": "G00 1st. F∞;",
+  "desc": "Nếu người dùng không xuất phát chậm, tăng tốc độ khi ở nhóm đầu trên đoạn thẳng cuối. Nếu người dùng đã giữ vị trí ở nhóm đầu, thay vào đó tăng mạnh tốc độ."
+ },
+ "100271": {
+  "name": "Cùng Nâng Tạ Nào!",
+  "desc": "Tăng gia tốc để cố gắng tiến lên ở khúc cua vào cuối chặng."
+ },
+ "100281": {
+  "name": "YUMMY☆SPEED!",
+  "desc": "Bứt lên mạnh mẽ với sức sống mới khi bắt đầu thấm mệt trong lúc ở vị trí thuận lợi vào giữa cuộc đua."
+ },
+ "100291": {
+  "name": "Snow Bright, Snow Flight",
+  "desc": "Khi còn 300m hoặc ít hơn, tăng tốc độ khi đang dẫn đầu hoặc ở nhóm đầu gần đối thủ dẫn đầu."
+ },
+ "100301": {
+  "name": "Hoa Hồng Xanh Rượt Đuổi",
+  "desc": "Khi người dùng kỹ năng đã vượt đối thủ vào cuối chặng và tiến lên phần đầu của nhóm, dồn hết quyết tâm sâu thẳm để tăng tốc độ trên đoạn thẳng cuối."
+ },
+ "100311": {
+  "name": "Sạc Đầy Rồi! Xuất Phát Thôi!",
+  "desc": "Tăng tốc độ vừa phải khi ở nhóm đầu và còn khoảng 300m. Nếu vừa ra khỏi dốc lên, thay vào đó tăng mạnh tốc độ."
+ },
+ "100321": {
+  "name": "U=ma2",
+  "desc": "Hồi thể lực và tăng tốc độ vừa phải trong thời gian vừa phải khi bám phía sau nhóm dẫn đầu ở khúc cua trong nửa sau cuộc đua."
+ },
+ "100331": {
+  "name": "Sao băng Dioskouroi",
+  "desc": "Tăng tốc độ nhờ sự dẫn lối của các vì sao khi cách xa người dẫn đầu trên đoạn thẳng cuối. Nếu ở gần cuối cùng của đoàn đua, tăng mạnh tốc độ thay vào đó."
+ },
+ "100341": {
+  "name": "Giờ Thì Phóng Thôi!",
+  "desc": "Khi tranh giành vị trí dẫn đầu, nếu đã ở giữa nhóm hoặc xa hơn trong nửa đầu cuộc đua, thể hiện khí phách Edo và tăng mạnh tốc độ."
+ },
+ "100351": {
+  "name": "Tấm Vé Chiến Thắng!",
+  "desc": "Tăng tốc độ với khát khao chiến thắng khi ở nhóm đầu trên đoạn thẳng cuối, sau khi tranh đua từ khúc cua cuối trở đi."
+ },
+ "100361": {
+  "name": "trigger:BEAT",
+  "desc": "Khi ở gần rào trong và ở giữa nhóm từ khúc cua cuối trở đi, tính toán lộ trình đến chiến thắng, tăng tốc độ và khả năng luồn lách trên đoạn thẳng cuối."
+ },
+ "100371": {
+  "name": "Schwarzes Schwert",
+  "desc": "Tăng tốc độ khi ở vị trí thứ 3 trở xuống trên đoạn thẳng cuối sau khi đã chạy điềm tĩnh. Nếu người dùng đã giữ vị trí ở giữa nhóm, tăng mạnh tốc độ thay vào đó."
+ },
+ "100381": {
+  "name": "#LookatCurren",
+  "desc": "Lấy đà và bắt đầu tiến lên khi vượt đối thủ trong lúc ở vị trí thuận lợi vào khoảng giữa cuộc đua."
+ },
+ "100391": {
+  "name": "Công chúa phải giành chiến thắng!",
+  "desc": "Tăng tốc độ bằng sức mạnh công chúa xinh đẹp khi đang tranh đấu với đối thủ trên đoạn thẳng cuối."
+ },
+ "100401": {
+  "name": "KEEP IT REAL.",
+  "desc": "Tăng gia tốc vừa phải liên tục với màn trình diễn cuốn hút khi bắt đầu tăng tốc từ giữa nhóm ở nửa sau cuộc đua."
+ },
+ "100411": {
+  "name": "Thiên Tài x Bakushin = Chiến Thắng",
+  "desc": "Tăng tốc độ bằng sức mạnh BAKUSHIN khi đang tranh đua ở nhóm đầu trong nửa sau cuộc đua."
+ },
+ "100421": {
+  "name": "I'm Possible!",
+  "desc": "Tăng tốc độ khi ở vị trí thứ 2 trở xuống và cách người dẫn đầu trong vòng 4 thân khi còn 200m. Nếu trong vòng 2 thân, thay vào đó tăng mạnh tốc độ."
+ },
+ "100441": {
+  "name": "Chiến thắng thuộc về ta—Strelitzia! ☆",
+  "desc": "Nếu ở nhóm sau và chạy điềm tĩnh cho đến đầu khúc cua cuối, khi còn 300m, niệm phép thuật để tăng tốc độ liên tục."
+ },
+ "100451": {
+  "name": "Trái Tim Thuần Khiết",
+  "desc": "Hồi mạnh thể lực khi ở vị trí thuận lợi giữa chặng."
+ },
+ "100461": {
+  "name": "SPARKLY☆STARDOM",
+  "desc": "Được tiếp thêm sức mạnh để giữ ánh hào quang khi ở nhóm đầu và ở gần đối thủ phía sau trên đoạn thẳng vào giữa chặng."
+ },
+ "100471": {
+  "name": "Giương Cao Lưỡi Kiếm Linh Hồn!",
+  "desc": "Tăng tốc độ khi ở nhóm đầu trong cuối chặng và còn 400m. Thay vào đó tăng mạnh tốc độ nếu là G1 hoặc cuộc đua lớn tương tự và được yêu thích."
+ },
+ "100481": {
+  "name": "Pop & Polish",
+  "desc": "Hăng hái lên và tăng tốc độ khi bị gây áp lực hoặc khi cố vượt đối thủ ở nhóm đầu trên đoạn thẳng cuối."
+ },
+ "100491": {
+  "name": "Cười Trước Nghịch Cảnh",
+  "desc": "Tăng tốc độ khi ở vị trí thuận lợi và còn 400m hoặc ít hơn sau khi cố vượt đối thủ từ khúc cua cuối trở đi. Nếu không được yêu thích, thay vào đó tăng mạnh tốc độ."
+ },
+ "100501": {
+  "name": "Kẻ thù truyền kiếp",
+  "desc": "Tăng tốc độ với tham vọng âm ỉ khi tiến lên từ giữa nhóm ở khúc cua cuối hoặc sau đó."
+ },
+ "100511": {
+  "name": "Nụ Hoa Chớm Nở",
+  "desc": "Nếu đã tranh đấu ở khúc cua giữa chặng, tăng gia tốc khi ở vị trí thuận lợi trong cuối chặng, từ nửa sau khúc cua cuối trở đi."
+ },
+ "100521": {
+  "name": "Siêu Cấp Cao Trào",
+  "desc": "Hồi thể lực khi liếc nhìn các đối thủ xung quanh lúc ở nhóm sau tại khúc cua cuối."
+ },
+ "100531": {
+  "name": "Kỷ Luật Nóng Bỏng!",
+  "desc": "Tăng gia tốc rất nhẹ trong thời gian ngắn khi rút ngắn khoảng cách từ phía sau từ khúc cua cuối trở đi trong cuối chặng. Hiệu ứng và thời gian tăng lên khi vượt đối thủ (tối đa 3 lần)."
+ },
+ "100561": {
+  "name": "Tôi Thấy Chiến Thắng Trong Tương Lai!",
+  "desc": "Mở đường tiến lên bằng sức mạnh bói toán khi phía trước bị chắn vào cuối chặng."
+ },
+ "100581": {
+  "name": "Tớ không bao giờ sai sót!",
+  "desc": "Nhắm lên phía trước với quyết tâm không lay chuyển khi vượt đối thủ vào cuối chặng."
+ },
+ "100591": {
+  "name": "Vượt qua và tiến xa hơn",
+  "desc": "Sau khi đã chạy điềm tĩnh, tăng gia tốc với quyết tâm sắt đá khi tăng tốc vào giữa chặng, hoặc ở khúc cua then chốt vào cuối chặng khi đang ở giữa nhóm."
+ },
+ "100601": {
+  "name": "Chỉ Thêm Chút Nữa Thôi!",
+  "desc": "Tăng tốc độ nhờ tinh thần chiến đấu bùng cháy khi đang ở hạng 3 và sắp thua vào cuối chặng."
+ },
+ "100611": {
+  "name": "Vị Vua Kiêu Hãnh",
+  "desc": "Tăng mạnh tốc độ, thể hiện thực lực thật sự khi còn 200m sau khi đã đua một cách điềm tĩnh."
+ },
+ "100621": {
+  "name": "Go, Go, Mun!",
+  "desc": "Hồi thể lực và tăng tốc độ vừa phải với quyết tâm mới khi ở giữa nhóm vào khoảng giữa cuộc đua."
+ },
+ "100641": {
+  "name": "Cứ Tiến Lên Phía Trước",
+  "desc": "Nếu ở nhóm đầu từ khi xuất phát đến nửa sau cuộc đua, tinh thần phấn chấn giúp hồi thể lực và tăng tốc độ vừa phải một cách đều đặn."
+ },
+ "100671": {
+  "name": "Ánh sáng vĩnh hằng bao trùm",
+  "desc": "Nếu ở vị trí thuận lợi khi bắt đầu đoạn thẳng cuối, ý chí chiến thắng mạnh mẽ giúp tăng tốc độ. Nếu ở gần phía trước, tăng mạnh tốc độ thay vào đó."
+ },
+ "100681": {
+  "name": "Cổ vũ chiến thắng!",
+  "desc": "Tăng tốc độ vừa phải khi ở nhóm đầu tại khúc cua thứ ba trong nửa sau cuộc đua. Hoặc, bứt lên mạnh mẽ khi ở nhóm đầu trên đoạn thẳng phía đối diện vào cuối chặng."
+ },
+ "100691": {
+  "name": "Hoài bão vượt qua hoa anh đào",
+  "desc": "Tăng tốc độ với hoài bão nở rộ khi ở vị trí thuận lợi và ở gần đối thủ phía trước khi còn 300m trở xuống."
+ },
+ "100711": {
+  "name": "Giấc mơ cả đời, cú bay khoảnh khắc",
+  "desc": "Nắm bắt khoảnh khắc khi ở gần đối thủ phía sau trên đoạn thẳng cuối, tiêu hao nhẹ thể lực để tăng mạnh tốc độ trong thời gian vừa phải."
+ },
+ "100721": {
+  "name": "Vũ Điệu Vô Song Của Ngọn Lửa Nở Hoa",
+  "desc": "Nếu đã vượt đối thủ từ khúc cua cuối trở đi, tăng tốc độ với tinh thần chiến đấu rực lửa khi ở phần đầu của nhóm và còn 300m hoặc ít hơn."
+ },
+ "100741": {
+  "name": "Gió xuân dịu dàng",
+  "desc": "Từ giữa nhóm trong nửa sau cuộc đua, tăng nhẹ tốc độ một cách đều đặn trong khoảng thời gian dựa trên thể lực còn lại."
+ },
+ "100781": {
+  "name": "Sunny Breeze",
+  "desc": "Tăng gia tốc rất nhẹ liên tục trong thời gian dài khi ở nhóm đầu ở nửa sau khúc cua cuối sau khi đã chờ thời cơ trong nửa đầu cuộc đua. Hiệu ứng tăng lên nếu ở vị trí thứ 2."
+ },
+ "100871": {
+  "name": "Silent Letter",
+  "desc": "Tăng khả năng luồn lách với khát khao mãnh liệt được lưu lại trong tim người hâm mộ khi bị áp sát ở nhóm đầu và còn 400m hoặc ít hơn."
+ },
+ "100981": {
+  "name": "Vận May Về Phía Tôi",
+  "desc": "Tăng tốc độ vừa phải vào một thời điểm khi sắp vào cuối chặng, sau đó tăng tốc độ và gia tốc dựa trên số kỹ năng bị động đang có hiệu lực."
+ },
+ "100991": {
+  "name": "Tỏa Sáng Nào, Tomakomai! ☆",
+  "desc": "Tăng nhẹ gia tốc khi ở vị trí thuận lợi trong nước rút cuối sau khi đã tranh đấu trên khúc cua giữa chặng trong cuộc đua Sân đất. Hiệu ứng tăng lên nếu vẫn còn sung sức."
+ },
+ "101001": {
+  "name": "Không Bao Giờ Bỏ Cuộc",
+  "desc": "Tăng tốc độ vừa phải khi ở nhóm đầu và còn 300m. Nếu là cuộc đua Sân đất và đang ở gần người dẫn đầu, đồng thời bứt lên phía trước vừa phải."
+ },
+ "110011": {
+  "name": "Dazzl'n ♪ Diver",
+  "desc": "Thư giãn và hồi thể lực sau khi kích hoạt 2 kỹ năng khi ở giữa nhóm vào giữa chặng."
+ },
+ "110031": {
+  "name": "Chiến Thắng Tất Yếu",
+  "desc": "Tăng mạnh tốc độ nhờ tinh thần chiến đấu bất khuất trên đoạn thẳng cuối, sau khi bám sát gót một đối thủ ở nhóm đầu từ khúc cua cuối trở đi."
+ },
+ "110041": {
+  "name": "Nụ hôn tiếp thêm dũng khí",
+  "desc": "Hăng hái tăng tốc độ khi ở nhóm đầu trong nửa sau cuộc đua sau khi hồi thể lực bằng kỹ năng."
+ },
+ "110051": {
+  "name": "Ravissant",
+  "desc": "Khi vượt đối thủ ở phần đầu của nhóm tại khúc cua cuối hoặc sau đó, trình diễn màn rực rỡ giúp tăng mạnh tốc độ trong thời gian vừa phải."
+ },
+ "110061": {
+  "name": "Phép màu ngày hội",
+  "desc": "Điều hòa nhịp thở và bứt lên mạnh mẽ hướng tới chiến thắng trong nửa sau cuộc đua sau khi hồi thể lực bằng kỹ năng ít nhất 3 lần."
+ },
+ "110071": {
+  "name": "564 Cuộc Phiêu Lưu",
+  "desc": "Tăng nhẹ tốc độ vào một thời điểm trong nửa sau cuộc đua. Nếu có sẵn kỹ năng hiếm nào xịn, cứ kích hoạt 2 kỹ năng bất kể điều kiện—miễn phí luôn."
+ },
+ "110081": {
+  "name": "Sang Số Cao!",
+  "desc": "Nếu ở giữa nhóm trên dốc xuống từ giữa chặng trở đi, tăng tốc độ trong thời gian vừa phải sau dốc xuống. Nếu ở trường đua Tokyo, đồng thời tăng tốc tối đa."
+ },
+ "110091": {
+  "name": "Queen's Lumination",
+  "desc": "Tăng tốc độ vừa phải liên tục khi ở nhóm đầu trên đoạn thẳng trong nửa sau cuộc đua. Hiệu ứng tăng lên nếu đang dẫn đầu và ở gần đối thủ phía sau."
+ },
+ "110101": {
+  "name": "Hải Trình Vui Vẻ!",
+  "desc": "Nếu ở nhóm đầu khi còn 200m, tăng tốc độ. Sau đó, nếu đồng thời ở gần Umamusume đang dẫn đầu, dồn sức để tiến lên phía trước một chút."
+ },
+ "110111": {
+  "name": "Hồi phục thượng hạng",
+  "desc": "Hồi mạnh thể lực nhờ ánh sáng dịu dàng khi bị vượt lúc ở nhóm sau vào giữa chặng."
+ },
+ "110131": {
+  "name": "Di Sản Của Kẻ Mạnh",
+  "desc": "Tăng tốc độ liên tục khi bị gây áp lực ở nhóm đầu vào cuối chặng, từ khúc cua cuối trở đi."
+ },
+ "110141": {
+  "name": "Cơn thịnh nộ của Kền kền",
+  "desc": "Tăng gia tốc với nhiệt huyết bùng cháy khi nhắm lên phía trước từ giữa nhóm ở khúc cua cuối."
+ },
+ "110151": {
+  "name": "Khúc thuyền ca chúc phúc",
+  "desc": "Tăng tốc độ khi ở phần đầu của nhóm khi còn 400m. Nếu người dùng kỹ năng đã kích hoạt ít nhất 7 kỹ năng, tăng mạnh tốc độ thay vào đó."
+ },
+ "110161": {
+  "name": "Tái Sinh Từ Tro Tàn",
+  "desc": "Tăng tốc độ khi ở phần đầu của nhóm ở nửa sau khúc cua cuối trong cuối chặng. Nếu là cuộc đua Dài và đã tranh đấu trong giữa chặng, thay vào đó tăng cực mạnh."
+ },
+ "110171": {
+  "name": "Tên rít bóng tan",
+  "desc": "Tinh thần rực cháy giúp tăng tốc độ liên tục từ khúc cua cuối trở đi khi bị gây áp lực lúc ở nhóm đầu vào cuối chặng."
+ },
+ "110181": {
+  "name": "Khoảnh khắc vĩnh cửu",
+  "desc": "Tăng tốc độ khi bắt đầu tăng tốc từ vị trí ở nhóm đầu vào giữa chặng."
+ },
+ "110191": {
+  "name": "THE MOE AAAA Thanks for My Life",
+  "desc": "Cuồng nhiệt hết cỡ và tăng tốc độ khi ở giữa nhóm hoặc xa hơn về phía sau trên khúc cua giữa chặng và có ít nhất 3 Umamusume xinh đẹp rạng rỡ ở gần."
+ },
+ "110201": {
+  "name": "Quẩy lên nào!",
+  "desc": "Tinh thần phấn chấn giúp tăng tốc độ khi ở nhóm đầu trên đoạn thẳng vào cuối chặng. Nếu đó là đoạn thẳng phía đối diện, tăng nhẹ thêm gia tốc."
+ },
+ "110211": {
+  "name": "Lightning Flare",
+  "desc": "Tăng tốc độ vừa phải liên tục khi đã kích hoạt 2 kỹ năng trong giữa chặng. Hiệu quả kỹ năng tăng lên nếu kích hoạt thêm kỹ năng khác trong khi kỹ năng này đang hoạt động (tối đa 2 lần)."
+ },
+ "110221": {
+  "name": "Ngày Tuyệt Vời Nhất",
+  "desc": "Nếu ở vị trí thuận lợi trong cuối chặng từ khúc cua cuối trở đi, tăng tốc độ. Nếu còn cách đích xa, đồng thời tăng gia tốc rất nhẹ với phong độ hoàn hảo."
+ },
+ "110231": {
+  "name": "Quà tặng từ X",
+  "desc": "Tăng tốc độ nhờ suy ra con đường đến chiến thắng vào giữa chặng sau khi giữ vị trí thuận lợi từ đầu cuộc đua cho đến nửa sau."
+ },
+ "110241": {
+  "name": "Flowery☆Maneuver",
+  "desc": "Tăng tốc độ khi vượt đối thủ ở nhóm đầu tại khúc cua cuối hoặc sau đó. Nếu vượt khi ở nhóm sau, tăng gia tốc thay vào đó."
+ },
+ "110261": {
+  "name": "Chiến dịch Cacao",
+  "desc": "Nghỉ lấy hơi một chút và tăng tốc độ khi ở phần đầu của nhóm và phát hiện đối thủ đang áp sát từ phía sau ở khúc cua vào giữa chặng."
+ },
+ "110301": {
+  "name": "Hồng nào cũng có gai",
+  "desc": "Rút thể lực của các đối thủ phía trước và tăng tốc độ vừa phải khi ở vị trí thuận lợi vào giữa chặng."
+ },
+ "110341": {
+  "name": "Ánh Lửa",
+  "desc": "Tăng tốc độ trên đoạn thẳng cuối sau khi gây áp lực lên một đối thủ ở nhóm sau trên khúc cua trong cuối chặng. Hiệu ứng tăng lên theo mỗi lần vượt đối thủ trên khúc cua trong cuối chặng."
+ },
+ "110351": {
+  "name": "Tấm Vé Đến Ước Mơ!",
+  "desc": "Tăng tốc độ vừa phải một cách đều đặn khi ở giữa nhóm hoặc xa hơn về phía sau trên đoạn thẳng cuối trong nước rút cuối. Hiệu ứng tăng lên khi kích hoạt kỹ năng (tối đa 3 lần)."
+ },
+ "110371": {
+  "name": "Guten Appetit ♪",
+  "desc": "Rút thêm sức mạnh từ lòng kiêu hãnh, tăng tốc độ liên tục trên đoạn thẳng cuối nếu người dùng kỹ năng đã vượt đối thủ ít nhất 2 lần ở khúc cua cuối hoặc sau đó."
+ },
+ "110381": {
+  "name": "Sắc Màu Duy Nhất",
+  "desc": "Nếu ở nhóm đầu khi còn 350m hoặc ít hơn và có một Umamusume khác bám sát phía sau, quyết tâm giữ vị trí dẫn trước giúp tăng khả năng luồn lách."
+ },
+ "110401": {
+  "name": "Khiêu vũ giữa lá rơi",
+  "desc": "Tăng khả năng luồn lách khi đang tranh đấu với đối thủ ở giữa nhóm tại khúc cua cuối."
+ },
+ "110451": {
+  "name": "Ôm Mẹ một cái nào ♡",
+  "desc": "Tăng khả năng luồn lách khi ở vị trí thuận lợi và ở gần đối thủ phía trước trên đoạn thẳng cuối."
+ },
+ "110461": {
+  "name": "α-star*",
+  "desc": "Tăng tốc độ vừa phải một cách đều đặn khi ở gần vị trí dẫn đầu vào khoảng giữa cuộc đua. Đồng thời hồi thể lực vừa phải nếu là cuộc đua Sân đất."
+ },
+ "110501": {
+  "name": "Hephaestus",
+  "desc": "Vươn cao hơn nữa, tăng tốc độ từ giữa nhóm khi sắp vào đoạn thẳng cuối trong cuối chặng."
+ },
+ "110521": {
+  "name": "Lần thứ 114 sẽ thành công",
+  "desc": "Dốc toàn lực khi cách xa người dẫn đầu ở khúc cua cuối, tăng tốc độ vừa phải một cách đều đặn trong khoảng thời gian tỉ lệ với khoảng cách tới người dẫn đầu."
+ },
+ "110561": {
+  "name": "Mùa màng bội thu",
+  "desc": "Tăng tốc độ nhờ vận may lớn dâng trào khi bị đối thủ gây áp lực lúc ở nhóm sau trong nửa sau cuộc đua."
+ },
+ "110581": {
+  "name": "Rùng Rợn, Đáng Sợ, Vui Vẻ",
+  "desc": "Tăng tốc độ và uy hiếp rất nhẹ tối đa 2 đối thủ phía trước và tối đa 2 đối thủ phía sau khi ở nhóm đầu lúc vào đoạn thẳng cuối."
+ },
+ "110591": {
+  "name": "Theo Bước Kỳ Diệu",
+  "desc": "Nếu ở giữa nhóm trên dốc xuống ngay trước cuối chặng và còn cách đích xa, tận hưởng cuộc đua hết mình, tăng tốc độ."
+ },
+ "110601": {
+  "name": "Go☆Go☆Goal!",
+  "desc": "Nếu đã vượt đối thủ từ khúc cua cuối trở đi, tăng tốc độ khi ở giữa nhóm trở lên trên đoạn thẳng cuối. Nếu không thuộc nhóm được yêu thích nhất, hạ quyết tâm để tiếp tục tăng tốc độ đều đặn."
+ },
+ "110611": {
+  "name": "Lớn Hơn Nữa! Cổ Vũ Tracen!",
+  "desc": "Nếu giữ vị trí ở tận cuối nhóm trong nửa đầu cuộc đua mà không bị nôn nóng, bùng nổ tinh thần chiến đấu để tăng gia tốc trên đoạn thẳng cuối."
+ },
+ "110671": {
+  "name": "Tia Sét Mây Mưa",
+  "desc": "Tỏa sáng rực rỡ, tăng tốc độ và hồi thể lực vừa phải khi ở giữa nhóm vào khoảng giữa cuộc đua."
+ },
+ "110681": {
+  "name": "Mở Tiệc Thôi!",
+  "desc": "Bứt lên phía trước trong thời gian vừa phải và tăng gia tốc rất nhẹ khi ở nhóm đầu trên khúc cua cuối chặng còn xa đích."
+ },
+ "120011": {
+  "name": "Ước Mơ Khoác Lên Đầy Tự Hào!",
+  "desc": "Nếu kích hoạt một kỹ năng khác trên khúc cua cuối trong cuối chặng, ghi nhận tiếng cổ vũ của khán giả và tăng tốc độ vừa phải. Nếu đua tại trường đua Nakayama, thay vào đó tăng mạnh tốc độ."
+ },
+ "120131": {
+  "name": "Nụ Cười Lấp Lánh Như Sóng Biển",
+  "desc": "Khi ở phần đầu của nhóm trong nửa sau cuộc đua, bắt đầu nước rút dài dựa trên thể lực còn lại, tăng nhẹ tốc độ liên tục."
+ },
+ "200011": {
+  "name": "Thuận Phải ◎",
+  "desc": "Tăng hiệu suất trên đường đua thuận phải."
+ },
+ "200012": {
+  "name": "Thuận Phải ○",
+  "desc": "Tăng hiệu suất vừa phải trên đường đua thuận phải."
+ },
+ "200013": {
+  "name": "Thuận Phải ×",
+  "desc": "Giảm hiệu suất vừa phải trên đường đua thuận phải."
+ },
+ "200014": {
+  "name": "Quỷ dữ đường thuận phải",
+  "desc": "Tăng độ thành thạo trên đường đua thuận phải, tăng Speed và Power."
+ },
+ "200021": {
+  "name": "Thuận Trái ◎",
+  "desc": "Tăng hiệu suất trên đường đua thuận trái."
+ },
+ "200022": {
+  "name": "Thuận Trái ○",
+  "desc": "Tăng hiệu suất vừa phải trên đường đua thuận trái."
+ },
+ "200023": {
+  "name": "Thuận Trái ×",
+  "desc": "Giảm hiệu suất vừa phải trên đường đua thuận trái."
+ },
+ "200031": {
+  "name": "Trường Đua Tokyo ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Tokyo."
+ },
+ "200032": {
+  "name": "Trường Đua Tokyo ○",
+  "desc": "Tăng hiệu suất vừa phải tại Trường đua Tokyo."
+ },
+ "200033": {
+  "name": "Trường Đua Tokyo ×",
+  "desc": "Giảm hiệu suất vừa phải tại Trường đua Tokyo."
+ },
+ "200041": {
+  "name": "Trường Đua Nakayama ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Nakayama."
+ },
+ "200042": {
+  "name": "Trường Đua Nakayama ○",
+  "desc": "Tăng hiệu suất vừa phải tại Trường đua Nakayama."
+ },
+ "200043": {
+  "name": "Trường Đua Nakayama ×",
+  "desc": "Giảm hiệu suất vừa phải tại Trường đua Nakayama."
+ },
+ "200051": {
+  "name": "Trường Đua Hanshin ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Hanshin."
+ },
+ "200052": {
+  "name": "Trường Đua Hanshin ○",
+  "desc": "Tăng hiệu suất vừa phải tại Trường đua Hanshin."
+ },
+ "200053": {
+  "name": "Trường Đua Hanshin ×",
+  "desc": "Giảm hiệu suất vừa phải tại Trường đua Hanshin."
+ },
+ "200061": {
+  "name": "Trường Đua Kyoto ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Kyoto."
+ },
+ "200062": {
+  "name": "Trường Đua Kyoto ○",
+  "desc": "Tăng hiệu suất vừa phải tại Trường đua Kyoto."
+ },
+ "200063": {
+  "name": "Trường Đua Kyoto ×",
+  "desc": "Giảm hiệu suất vừa phải tại Trường đua Kyoto."
+ },
+ "200064": {
+  "name": "Yodo Invicta",
+  "desc": "Tăng phong độ tại Trường đua Kyoto, tăng Stamina, Wit và Speed."
+ },
+ "200071": {
+  "name": "Trường Đua Chukyo ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Chukyo."
+ },
+ "200072": {
+  "name": "Trường Đua Chukyo ○",
+  "desc": "Tăng hiệu suất vừa phải tại Trường đua Chukyo."
+ },
+ "200073": {
+  "name": "Trường Đua Chukyo ×",
+  "desc": "Giảm hiệu suất vừa phải tại Trường đua Chukyo."
+ },
+ "200081": {
+  "name": "Trường Đua Sapporo ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Sapporo."
+ },
+ "200082": {
+  "name": "Trường Đua Sapporo ○",
+  "desc": "Tăng hiệu suất vừa phải tại Trường đua Sapporo."
+ },
+ "200083": {
+  "name": "Trường Đua Sapporo ×",
+  "desc": "Giảm hiệu suất vừa phải tại Trường đua Sapporo."
+ },
+ "200091": {
+  "name": "Trường Đua Hakodate ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Hakodate."
+ },
+ "200092": {
+  "name": "Trường Đua Hakodate ○",
+  "desc": "Tăng hiệu suất vừa phải tại Trường đua Hakodate."
+ },
+ "200093": {
+  "name": "Trường Đua Hakodate ×",
+  "desc": "Giảm hiệu suất vừa phải tại Trường đua Hakodate."
+ },
+ "200101": {
+  "name": "Trường Đua Fukushima ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Fukushima."
+ },
+ "200102": {
+  "name": "Trường Đua Fukushima ○",
+  "desc": "Tăng hiệu suất vừa phải tại Trường đua Fukushima."
+ },
+ "200103": {
+  "name": "Trường Đua Fukushima ×",
+  "desc": "Giảm hiệu suất vừa phải tại Trường đua Fukushima."
+ },
+ "200111": {
+  "name": "Trường Đua Niigata ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Niigata."
+ },
+ "200112": {
+  "name": "Trường Đua Niigata ○",
+  "desc": "Tăng hiệu suất vừa phải tại Trường đua Niigata."
+ },
+ "200113": {
+  "name": "Trường Đua Niigata ×",
+  "desc": "Giảm hiệu suất vừa phải tại Trường đua Niigata."
+ },
+ "200121": {
+  "name": "Trường Đua Kokura ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Kokura."
+ },
+ "200122": {
+  "name": "Trường Đua Kokura ○",
+  "desc": "Tăng hiệu suất vừa phải tại Trường đua Kokura."
+ },
+ "200123": {
+  "name": "Trường Đua Kokura ×",
+  "desc": "Giảm hiệu suất vừa phải tại Trường đua Kokura."
+ },
+ "200131": {
+  "name": "Cự Ly Chuẩn ◎",
+  "desc": "Tăng hiệu suất ở các cự ly chuẩn (bội số của 400m)."
+ },
+ "200132": {
+  "name": "Cự Ly Chuẩn ○",
+  "desc": "Tăng hiệu suất vừa phải ở các cự ly chuẩn (bội số của 400m)."
+ },
+ "200133": {
+  "name": "Cự Ly Chuẩn ×",
+  "desc": "Giảm hiệu suất vừa phải ở các cự ly chuẩn (bội số của 400m)."
+ },
+ "200141": {
+  "name": "Cự Ly Lẻ ◎",
+  "desc": "Tăng hiệu suất ở các cự ly lẻ (không phải bội số của 400m)."
+ },
+ "200142": {
+  "name": "Cự Ly Lẻ ○",
+  "desc": "Tăng hiệu suất vừa phải ở các cự ly lẻ (không phải bội số của 400m)."
+ },
+ "200143": {
+  "name": "Cự Ly Lẻ ×",
+  "desc": "Giảm hiệu suất vừa phải ở các cự ly lẻ (không phải bội số của 400m)."
+ },
+ "200151": {
+  "name": "Mặt Sân Khô ◎",
+  "desc": "Tăng hiệu suất trên mặt sân khô."
+ },
+ "200152": {
+  "name": "Mặt Sân Khô ○",
+  "desc": "Tăng hiệu suất vừa phải trên mặt sân khô."
+ },
+ "200153": {
+  "name": "Mặt Sân Khô ×",
+  "desc": "Giảm hiệu suất vừa phải trên mặt sân khô."
+ },
+ "200154": {
+  "name": "Hung thần mặt sân khô",
+  "desc": "Tăng phong độ trên mặt sân khô, tăng Power và Speed."
+ },
+ "200161": {
+  "name": "Mặt Sân Ướt ◎",
+  "desc": "Tăng hiệu suất trên mặt sân hơi ướt, mềm và nặng."
+ },
+ "200162": {
+  "name": "Mặt Sân Ướt ○",
+  "desc": "Tăng hiệu suất vừa phải trên mặt sân hơi ướt, mềm và nặng."
+ },
+ "200163": {
+  "name": "Mặt Sân Ướt ×",
+  "desc": "Giảm hiệu suất vừa phải trên mặt sân hơi ướt, mềm và nặng."
+ },
+ "200171": {
+  "name": "Chiến Binh Mùa Xuân ◎",
+  "desc": "Tăng hiệu suất vào mùa Xuân."
+ },
+ "200172": {
+  "name": "Chiến Binh Mùa Xuân ○",
+  "desc": "Tăng hiệu suất vừa phải vào mùa Xuân."
+ },
+ "200173": {
+  "name": "Chiến Binh Mùa Xuân ×",
+  "desc": "Giảm hiệu suất vừa phải vào mùa Xuân."
+ },
+ "200174": {
+  "name": "Rực rỡ mùa Xuân",
+  "desc": "Tăng phong độ vào mùa Xuân, tăng Speed và Power."
+ },
+ "200181": {
+  "name": "Chiến Binh Mùa Hạ ◎",
+  "desc": "Tăng hiệu suất vào mùa Hạ."
+ },
+ "200182": {
+  "name": "Chiến Binh Mùa Hạ ○",
+  "desc": "Tăng hiệu suất vừa phải vào mùa Hạ."
+ },
+ "200183": {
+  "name": "Chiến Binh Mùa Hạ ×",
+  "desc": "Giảm hiệu suất vừa phải vào mùa Hạ."
+ },
+ "200191": {
+  "name": "Chiến Binh Mùa Thu ◎",
+  "desc": "Tăng hiệu suất vào mùa Thu."
+ },
+ "200192": {
+  "name": "Chiến Binh Mùa Thu ○",
+  "desc": "Tăng hiệu suất vừa phải vào mùa Thu."
+ },
+ "200193": {
+  "name": "Chiến Binh Mùa Thu ×",
+  "desc": "Giảm hiệu suất vừa phải vào mùa Thu."
+ },
+ "200194": {
+  "name": "Cuồng nhiệt mùa Thu",
+  "desc": "Tăng phong độ vào mùa Thu, tăng Speed và Power."
+ },
+ "200201": {
+  "name": "Chiến Binh Mùa Đông ◎",
+  "desc": "Tăng hiệu suất vào mùa Đông."
+ },
+ "200202": {
+  "name": "Chiến Binh Mùa Đông ○",
+  "desc": "Tăng hiệu suất vừa phải vào mùa Đông."
+ },
+ "200203": {
+  "name": "Chiến Binh Mùa Đông ×",
+  "desc": "Giảm hiệu suất vừa phải vào mùa Đông."
+ },
+ "200211": {
+  "name": "Ngày Nắng ◎",
+  "desc": "Tăng hiệu suất khi trời Nắng."
+ },
+ "200212": {
+  "name": "Ngày Nắng ○",
+  "desc": "Tăng hiệu suất vừa phải khi trời Nắng."
+ },
+ "200221": {
+  "name": "Ngày Nhiều Mây ◎",
+  "desc": "Tăng hiệu suất khi trời Nhiều mây."
+ },
+ "200222": {
+  "name": "Ngày Nhiều Mây ○",
+  "desc": "Tăng hiệu suất vừa phải khi trời Nhiều mây."
+ },
+ "200231": {
+  "name": "Ngày Mưa ◎",
+  "desc": "Tăng hiệu suất khi trời Mưa."
+ },
+ "200232": {
+  "name": "Ngày Mưa ○",
+  "desc": "Tăng hiệu suất vừa phải khi trời Mưa."
+ },
+ "200233": {
+  "name": "Ngày Mưa ×",
+  "desc": "Giảm hiệu suất vừa phải khi trời Mưa."
+ },
+ "200241": {
+  "name": "Ngày Tuyết ◎",
+  "desc": "Tăng hiệu suất khi trời có Tuyết."
+ },
+ "200242": {
+  "name": "Ngày Tuyết ○",
+  "desc": "Tăng hiệu suất vừa phải khi trời có Tuyết."
+ },
+ "200251": {
+  "name": "Sở Trường Cổng Trong ◎",
+  "desc": "Tăng hiệu suất khi xuất phát ở cổng số 1–3."
+ },
+ "200252": {
+  "name": "Sở Trường Cổng Trong ○",
+  "desc": "Tăng hiệu suất vừa phải khi xuất phát ở cổng số 1–3."
+ },
+ "200253": {
+  "name": "Ngại Cổng Trong",
+  "desc": "Giảm hiệu suất vừa phải khi xuất phát ở cổng số 1–3."
+ },
+ "200261": {
+  "name": "Sở Trường Cổng Ngoài ◎",
+  "desc": "Tăng hiệu suất khi xuất phát ở cổng số 6–8."
+ },
+ "200262": {
+  "name": "Sở Trường Cổng Ngoài ○",
+  "desc": "Tăng hiệu suất vừa phải khi xuất phát ở cổng số 6–8."
+ },
+ "200263": {
+  "name": "Ngại Cổng Ngoài",
+  "desc": "Giảm hiệu suất vừa phải khi xuất phát ở cổng số 6–8."
+ },
+ "200271": {
+  "name": "Kẻ Độc Hành ◎",
+  "desc": "Tăng mạnh hiệu suất khi không có đối thủ nào khác dùng cùng chiến thuật."
+ },
+ "200272": {
+  "name": "Kẻ Độc Hành ○",
+  "desc": "Tăng hiệu suất khi không có đối thủ nào khác dùng cùng chiến thuật."
+ },
+ "200281": {
+  "name": "Tinh Thần Cạnh Tranh ◎",
+  "desc": "Tăng hiệu suất khi có nhiều đối thủ khác dùng cùng chiến thuật."
+ },
+ "200282": {
+  "name": "Tinh Thần Cạnh Tranh ○",
+  "desc": "Tăng hiệu suất vừa phải khi có nhiều đối thủ khác dùng cùng chiến thuật."
+ },
+ "200283": {
+  "name": "Rụt Rè",
+  "desc": "Giảm hiệu suất vừa phải khi có nhiều đối thủ khác dùng cùng chiến thuật."
+ },
+ "200291": {
+  "name": "Mục Tiêu Trong Tầm Mắt ◎",
+  "desc": "Tăng hiệu suất khi ứng viên được kỳ vọng nhất dùng cùng chiến thuật."
+ },
+ "200292": {
+  "name": "Mục Tiêu Trong Tầm Mắt ○",
+  "desc": "Tăng hiệu suất vừa phải khi ứng viên được kỳ vọng nhất dùng cùng chiến thuật."
+ },
+ "200301": {
+  "name": "Ngựa Ô ◎",
+  "desc": "Tăng hiệu suất khi có mức kỳ vọng từ hạng 4 trở xuống."
+ },
+ "200302": {
+  "name": "Ngựa Ô ○",
+  "desc": "Tăng hiệu suất vừa phải khi có mức kỳ vọng từ hạng 4 trở xuống."
+ },
+ "200311": {
+  "name": "Ngại G1",
+  "desc": "Giảm hiệu suất vừa phải trong các cuộc đua G1 hoặc các cuộc đua quan trọng khác."
+ },
+ "200321": {
+  "name": "Sợ Sân Dạo",
+  "desc": "Giảm hiệu suất vừa phải khi là ứng viên được kỳ vọng nhất."
+ },
+ "200331": {
+  "name": "Giáo Sư Đường Cong",
+  "desc": "Tăng tốc độ ở khúc cua nhờ kỹ thuật ôm cua điêu luyện."
+ },
+ "200332": {
+  "name": "Ôm Cua Giỏi ○",
+  "desc": "Tăng nhẹ tốc độ ở khúc cua nhờ kỹ thuật ôm cua điêu luyện."
+ },
+ "200333": {
+  "name": "Ôm Cua Giỏi ×",
+  "desc": "Giảm tốc độ vừa phải ở khúc cua do ôm cua vụng về."
+ },
+ "200341": {
+  "name": "Bậc Thầy Khúc Cua",
+  "desc": "Tăng gia tốc ở khúc cua nhờ kỹ thuật ôm cua bậc thầy."
+ },
+ "200342": {
+  "name": "Tăng Tốc Khúc Cua ○",
+  "desc": "Tăng nhẹ gia tốc ở khúc cua nhờ kỹ thuật ôm cua bậc thầy."
+ },
+ "200343": {
+  "name": "Tăng Tốc Khúc Cua ×",
+  "desc": "Giảm gia tốc vừa phải ở khúc cua do ôm cua lóng ngóng."
+ },
+ "200351": {
+  "name": "Nhạc Trưởng Ôm Cua",
+  "desc": "Hồi thể lực ở khúc cua nhờ ôm cua hiệu quả."
+ },
+ "200352": {
+  "name": "Hồi Phục Khúc Cua ○",
+  "desc": "Hồi nhẹ thể lực ở khúc cua nhờ ôm cua hiệu quả."
+ },
+ "200353": {
+  "name": "Hồi Phục Khúc Cua ×",
+  "desc": "Mất thể lực vừa phải ở khúc cua do ôm cua kém hiệu quả."
+ },
+ "200361": {
+  "name": "Lao Vút Thẳng Tiến",
+  "desc": "Tăng tốc độ trên đoạn thẳng."
+ },
+ "200362": {
+  "name": "Giỏi Đoạn Thẳng",
+  "desc": "Tăng nhẹ tốc độ trên đoạn thẳng."
+ },
+ "200371": {
+  "name": "Cuồng Phong Ập Tới!",
+  "desc": "Tăng gia tốc và tăng nhẹ tốc độ trên đoạn thẳng."
+ },
+ "200372": {
+  "name": "Tăng Tốc Đoạn Thẳng",
+  "desc": "Tăng nhẹ gia tốc trên đoạn thẳng."
+ },
+ "200381": {
+  "name": "Làn Gió Mới",
+  "desc": "Hồi thể lực trên đoạn thẳng giữa chặng."
+ },
+ "200382": {
+  "name": "Hồi Phục Đoạn Thẳng",
+  "desc": "Hồi nhẹ thể lực trên đoạn thẳng giữa chặng."
+ },
+ "200391": {
+  "name": "Ghét Dốc",
+  "desc": "Tăng mệt mỏi vừa phải khi lên dốc."
+ },
+ "200401": {
+  "name": "Sợ Đám Đông",
+  "desc": "Mất thể lực vừa phải khi bị bao vây."
+ },
+ "200411": {
+  "name": "Kẻ Chủ Bại",
+  "desc": "Tăng vừa phải ý muốn bỏ cuộc khi ở gần cuối đoàn trên đoạn thẳng cuối."
+ },
+ "200421": {
+  "name": "Liều Lĩnh",
+  "desc": "Tăng vừa phải sự bất cẩn khi đang dẫn đầu lúc còn khoảng 200m."
+ },
+ "200431": {
+  "name": "Tập Trung Cao Độ",
+  "desc": "Giảm thời gian bị mất do xuất phát chậm."
+ },
+ "200432": {
+  "name": "Tập Trung",
+  "desc": "Giảm nhẹ thời gian bị mất do xuất phát chậm."
+ },
+ "200433": {
+  "name": "Kẹt Cổng",
+  "desc": "Tăng vừa phải thời gian bị mất do xuất phát chậm."
+ },
+ "200441": {
+  "name": "Ý Chí Sắt Đá",
+  "desc": "Khi phía trước bị chắn ở đầu chặng hoặc giữa chặng, dựa vào ý chí vững vàng để hồi thể lực và tăng khả năng luồn lách."
+ },
+ "200442": {
+  "name": "Ẩn Mình Chờ Thời",
+  "desc": "Khi phía trước bị chắn ở đầu chặng hoặc giữa chặng, ẩn mình chờ thời để hồi nhẹ thể lực và tăng nhẹ khả năng luồn lách."
+ },
+ "200451": {
+  "name": "Tâm Điểm Sân Khấu",
+  "desc": "Tăng mạnh khả năng luồn lách ở đầu chặng."
+ },
+ "200452": {
+  "name": "Chọn Vị Trí Khôn Ngoan",
+  "desc": "Tăng khả năng luồn lách ở đầu chặng."
+ },
+ "200461": {
+  "name": "Vào cuộc!",
+  "desc": "Tăng tốc độ khi vượt đối thủ ở giữa chặng."
+ },
+ "200462": {
+  "name": "Tăng nhịp",
+  "desc": "Tăng nhẹ tốc độ khi vượt đối thủ ở giữa chặng."
+ },
+ "200471": {
+  "name": "Bất khuất",
+  "desc": "Hồi thể lực khi bị đối thủ vượt ở giữa chặng."
+ },
+ "200472": {
+  "name": "Chiến lược nhịp độ",
+  "desc": "Hồi nhẹ thể lực khi bị đối thủ vượt ở giữa chặng."
+ },
+ "200481": {
+  "name": "Bình thản",
+  "desc": "Hồi thể lực khi bị vây quanh ở giữa chặng."
+ },
+ "200482": {
+  "name": "Điềm tĩnh giữa đám đông",
+  "desc": "Hồi nhẹ thể lực khi bị vây quanh ở giữa chặng."
+ },
+ "200491": {
+  "name": "Không gì cản nổi!",
+  "desc": "Tăng khả năng di chuyển linh hoạt khi phía trước bị chắn trong nước rút cuối."
+ },
+ "200492": {
+  "name": "Lách khéo",
+  "desc": "Tăng nhẹ khả năng di chuyển linh hoạt khi phía trước bị chắn trong nước rút cuối."
+ },
+ "200501": {
+  "name": "Ảo thuật chuyển làn",
+  "desc": "Tăng khả năng luồn lách ở cuối chặng."
+ },
+ "200502": {
+  "name": "Thuận theo dòng",
+  "desc": "Tăng vừa phải khả năng luồn lách ở cuối chặng."
+ },
+ "200511": {
+  "name": "Toàn tâm toàn lực",
+  "desc": "Tăng tốc độ trong nước rút cuối."
+ },
+ "200512": {
+  "name": "Tăng tốc về đích",
+  "desc": "Tăng nhẹ tốc độ trong nước rút cuối."
+ },
+ "200521": {
+  "name": "Chạy không tải",
+  "desc": "Tăng vừa phải mệt mỏi khi dẫn đầu với khoảng cách quá lớn."
+ },
+ "200531": {
+  "name": "Chiếm lấy vị trí đầu",
+  "desc": "Tăng khả năng vươn lên dẫn đầu ở đầu chặng. (Chạy đầu)"
+ },
+ "200532": {
+  "name": "Dẫn sớm",
+  "desc": "Tăng nhẹ khả năng vươn lên dẫn đầu ở đầu chặng. (Chạy đầu)"
+ },
+ "200541": {
+  "name": "Bậc thầy thoát thân",
+  "desc": "Tăng khả năng vươn lên dẫn đầu ở giữa chặng. (Chạy đầu)"
+ },
+ "200542": {
+  "name": "Nhịp nhanh",
+  "desc": "Tăng nhẹ khả năng vươn lên dẫn đầu ở giữa chặng. (Chạy đầu)"
+ },
+ "200551": {
+  "name": "Không kìm hãm",
+  "desc": "Tăng khả năng giữ vị trí dẫn đầu ở khúc cua cuối. (Chạy đầu)"
+ },
+ "200552": {
+  "name": "Cú đẩy cuối",
+  "desc": "Tăng nhẹ khả năng giữ vị trí dẫn đầu ở khúc cua cuối. (Chạy đầu)"
+ },
+ "200561": {
+  "name": "Bình tĩnh tự tại",
+  "desc": "Giảm mệt mỏi khi sắp vào giữa chặng. (Bám đuổi)"
+ },
+ "200562": {
+  "name": "Dư sức",
+  "desc": "Giảm nhẹ mệt mỏi khi sắp vào giữa chặng. (Bám đuổi)"
+ },
+ "200571": {
+  "name": "Nhà hoạch định",
+  "desc": "Giảm mệt mỏi ở giữa chặng. (Bám đuổi)"
+ },
+ "200572": {
+  "name": "Vị trí ưng ý",
+  "desc": "Giảm nhẹ mệt mỏi ở giữa chặng. (Bám đuổi)"
+ },
+ "200581": {
+  "name": "Ngôi sao tốc độ",
+  "desc": "Tăng khả năng luồn lách thoát khỏi nhóm ở khúc cua cuối. (Bám đuổi)"
+ },
+ "200582": {
+  "name": "Sẵn sàng vượt",
+  "desc": "Tăng nhẹ khả năng luồn lách thoát khỏi nhóm ở khúc cua cuối. (Bám đuổi)"
+ },
+ "200591": {
+  "name": "Nhanh và cuồng nộ",
+  "desc": "Tăng tốc độ khi ở giữa nhóm hoặc xa hơn về phía sau ở giữa chặng. (Bứt tốc)"
+ },
+ "200592": {
+  "name": "Cướp vị trí",
+  "desc": "Tăng nhẹ tốc độ khi ở giữa nhóm hoặc xa hơn về phía sau ở giữa chặng. (Bứt tốc)"
+ },
+ "200601": {
+  "name": "Tránh bên trái!",
+  "desc": "Tăng gia tốc khi ở giữa nhóm hoặc xa hơn về phía sau trong phần đầu của cuối chặng. (Bứt tốc)"
+ },
+ "200602": {
+  "name": "Bứt lên khéo léo",
+  "desc": "Tăng nhẹ gia tốc khi ở giữa nhóm hoặc xa hơn về phía sau trong phần đầu của cuối chặng. (Bứt tốc)"
+ },
+ "200611": {
+  "name": "Rồng thăng thiên",
+  "desc": "Tăng tốc độ khi vượt đối thủ ở phía ngoài tại khúc cua cuối. (Bứt tốc)"
+ },
+ "200612": {
+  "name": "Trồi lên phía ngoài",
+  "desc": "Tăng nhẹ tốc độ khi vượt đối thủ ở phía ngoài tại khúc cua cuối. (Bứt tốc)"
+ },
+ "200621": {
+  "name": "Sư tử ngủ yên",
+  "desc": "Giảm mệt mỏi ở giữa chặng. (Rượt cuối)"
+ },
+ "200622": {
+  "name": "Chờ thời",
+  "desc": "Giảm nhẹ mệt mỏi ở giữa chặng. (Rượt cuối)"
+ },
+ "200631": {
+  "name": "Sturm und Drang",
+  "desc": "Tăng tốc độ trong nước rút cuối khi ở nhóm sau ở cuối chặng. (Rượt cuối)"
+ },
+ "200632": {
+  "name": "Nước cờ cao tay",
+  "desc": "Tăng nhẹ tốc độ trong nước rút cuối khi ở nhóm sau ở cuối chặng. (Rượt cuối)"
+ },
+ "200641": {
+  "name": "Bóng đen áp sát",
+  "desc": "Tăng gia tốc trên đoạn thẳng trong nước rút cuối. (Rượt cuối)"
+ },
+ "200642": {
+  "name": "Bứt tốc đường thẳng",
+  "desc": "Tăng nhẹ gia tốc trên đoạn thẳng trong nước rút cuối. (Rượt cuối)"
+ },
+ "200651": {
+  "name": "Nước rút turbo",
+  "desc": "Tăng gia tốc ở cuối chặng. (Ngắn)"
+ },
+ "200652": {
+  "name": "Số nước rút",
+  "desc": "Tăng nhẹ gia tốc ở cuối chặng. (Ngắn)"
+ },
+ "200662": {
+  "name": "Chờ xem tình hình",
+  "desc": "Giảm nhẹ mệt mỏi và tăng rất nhẹ gia tốc khi ở nhóm sau ở giữa chặng. (Ngắn)"
+ },
+ "200671": {
+  "name": "Tia chớp chói lòa",
+  "desc": "Tăng khả năng bứt tốc khi ở nhóm sau ở cuối chặng. (Ngắn)"
+ },
+ "200672": {
+  "name": "Rút ngắn khoảng cách",
+  "desc": "Tăng nhẹ khả năng bứt tốc khi ở nhóm sau ở cuối chặng. (Ngắn)"
+ },
+ "200681": {
+  "name": "Chuyên gia cự ly Dặm",
+  "desc": "Nới rộng khoảng cách khi ở nhóm đầu lúc sắp vào giữa chặng. (Dặm)"
+ },
+ "200682": {
+  "name": "Kế hoạch hiệu quả",
+  "desc": "Nới rộng nhẹ khoảng cách khi ở nhóm đầu lúc sắp vào giữa chặng. (Dặm)"
+ },
+ "200691": {
+  "name": "Mắt tinh",
+  "desc": "Giảm mệt mỏi, sau đó giảm vừa phải tốc độ của các đối thủ phía trước khi ở nhóm sau lúc sắp vào giữa chặng. (Dặm)"
+ },
+ "200692": {
+  "name": "Mắt quan sát",
+  "desc": "Giảm nhẹ mệt mỏi, sau đó giảm rất nhẹ tốc độ của các đối thủ phía trước khi ở nhóm sau lúc sắp vào giữa chặng. (Dặm)"
+ },
+ "200701": {
+  "name": "Kỳ tích cuồng nộ",
+  "desc": "Tăng khả năng vượt khi ở nhóm sau ở cuối chặng. (Dặm)"
+ },
+ "200702": {
+  "name": "Cưỡi luồng gió",
+  "desc": "Tăng nhẹ khả năng vượt khi ở nhóm sau ở cuối chặng. (Dặm)"
+ },
+ "200711": {
+  "name": "Người mở lối",
+  "desc": "Giảm mệt mỏi khi ở nhóm đầu ở giữa chặng. (Trung)"
+ },
+ "200712": {
+  "name": "Triển vọng tươi sáng",
+  "desc": "Giảm nhẹ mệt mỏi khi ở nhóm đầu ở giữa chặng. (Trung)"
+ },
+ "200721": {
+  "name": "Giai điệu sát thủ",
+  "desc": "Tăng khả năng giành vị trí khi ở nhóm đầu ở giữa chặng. (Trung)"
+ },
+ "200722": {
+  "name": "Nhịp nhanh dần",
+  "desc": "Tăng nhẹ khả năng giành vị trí khi ở nhóm đầu ở giữa chặng. (Trung)"
+ },
+ "200731": {
+  "name": "Không khuất phục",
+  "desc": "Tăng tốc độ và tăng rất nhẹ gia tốc khi bị áp sát từ khúc cua cuối trở đi. (Trung)"
+ },
+ "200732": {
+  "name": "Kiên định",
+  "desc": "Tăng nhẹ tốc độ và tăng cực nhẹ gia tốc khi bị áp sát từ khúc cua cuối trở đi. (Trung)"
+ },
+ "200741": {
+  "name": "Hạ nhiệt",
+  "desc": "Lấy lại hơi và giảm mệt mỏi ở giữa chặng. (Dài)"
+ },
+ "200742": {
+  "name": "Hít thở sâu",
+  "desc": "Lấy lại hơi và giảm nhẹ mệt mỏi ở giữa chặng. (Dài)"
+ },
+ "200751": {
+  "name": "Kinh nghiệm bẩm sinh",
+  "desc": "Tăng tốc độ khi ở gần rào trong tại khúc cua cuối. (Dài)"
+ },
+ "200752": {
+  "name": "Lối trong",
+  "desc": "Tăng nhẹ tốc độ khi ở gần rào trong tại khúc cua cuối. (Dài)"
+ },
+ "200761": {
+  "name": "Dâng trào adrenaline",
+  "desc": "Khi thể lực sắp cạn, nhen nhóm lại quyết tâm và tăng tốc độ. (Dài)"
+ },
+ "200762": {
+  "name": "Bình dự phòng",
+  "desc": "Lấy lại nhẹ sức để chạy khi sắp cạn kiệt sức lực. (Dài)"
+ },
+ "200771": {
+  "name": "Mưu mẹo (Trước)",
+  "desc": "Tăng nhẹ mệt mỏi cho các đối thủ nôn nóng phía sau khi ở nhóm đầu ở giữa chặng."
+ },
+ "200772": {
+  "name": "Mánh khóe trêu ngươi",
+  "desc": "Tăng mệt mỏi cho các đối thủ nôn nóng phía sau khi ở nhóm đầu vào giữa chặng."
+ },
+ "200781": {
+  "name": "Mưu mẹo (Sau)",
+  "desc": "Tăng nhẹ mệt mỏi cho các đối thủ nôn nóng phía trước khi ở nhóm sau ở giữa chặng."
+ },
+ "200791": {
+  "name": "Chạy đầu cuống cuồng",
+  "desc": "Tăng thời gian cần thiết để các đối thủ Chạy đầu bình tĩnh lại khi họ trở nên nôn nóng."
+ },
+ "200801": {
+  "name": "Bám đuổi cuống cuồng",
+  "desc": "Tăng thời gian cần thiết để các đối thủ Bám đuổi bình tĩnh lại khi họ trở nên nôn nóng."
+ },
+ "200811": {
+  "name": "Bứt tốc cuống cuồng",
+  "desc": "Tăng thời gian cần thiết để các đối thủ Bứt tốc bình tĩnh lại khi họ trở nên nôn nóng."
+ },
+ "200821": {
+  "name": "Rượt cuối cuống cuồng",
+  "desc": "Tăng thời gian cần thiết để các đối thủ Rượt cuối bình tĩnh lại khi họ trở nên nôn nóng."
+ },
+ "200831": {
+  "name": "Áp chế Chạy đầu",
+  "desc": "Tăng nhẹ mệt mỏi cho các đối thủ Chạy đầu ở đầu chặng."
+ },
+ "200841": {
+  "name": "Rối loạn Chạy đầu",
+  "desc": "Tăng nhẹ mệt mỏi cho các đối thủ Chạy đầu ở giữa chặng."
+ },
+ "200851": {
+  "name": "Do dự Chạy đầu",
+  "desc": "Giảm nhẹ tốc độ của các đối thủ Chạy đầu ở cuối chặng."
+ },
+ "200861": {
+  "name": "Áp chế Bám đuổi",
+  "desc": "Tăng nhẹ mệt mỏi cho các đối thủ Bám đuổi ở đầu chặng."
+ },
+ "200871": {
+  "name": "Rối loạn Bám đuổi",
+  "desc": "Tăng nhẹ mệt mỏi cho các đối thủ Bám đuổi ở giữa chặng."
+ },
+ "200881": {
+  "name": "Do dự Bám đuổi",
+  "desc": "Giảm nhẹ tốc độ của các đối thủ Bám đuổi ở cuối chặng."
+ },
+ "200891": {
+  "name": "Áp chế Bứt tốc",
+  "desc": "Tăng nhẹ mệt mỏi cho các đối thủ Bứt tốc ở đầu chặng."
+ },
+ "200901": {
+  "name": "Rối loạn Bứt tốc",
+  "desc": "Tăng nhẹ mệt mỏi cho các đối thủ Bứt tốc ở giữa chặng."
+ },
+ "200911": {
+  "name": "Do dự Bứt tốc",
+  "desc": "Giảm nhẹ tốc độ của các đối thủ Bứt tốc ở cuối chặng."
+ },
+ "200921": {
+  "name": "Áp chế Rượt cuối",
+  "desc": "Tăng nhẹ mệt mỏi cho các đối thủ Rượt cuối ở đầu chặng."
+ },
+ "200931": {
+  "name": "Rối loạn Rượt cuối",
+  "desc": "Tăng nhẹ mệt mỏi cho các đối thủ Rượt cuối ở giữa chặng."
+ },
+ "200941": {
+  "name": "Do dự Rượt cuối",
+  "desc": "Giảm nhẹ tốc độ của các đối thủ Rượt cuối ở cuối chặng."
+ },
+ "200951": {
+  "name": "Trường đua Oi ◎",
+  "desc": "Tăng hiệu suất tại Trường đua Oi."
+ },
+ "200952": {
+  "name": "Trường đua Oi ○",
+  "desc": "Tăng vừa phải hiệu suất tại Trường đua Oi."
+ },
+ "200953": {
+  "name": "Trường đua Oi ×",
+  "desc": "Giảm vừa phải hiệu suất tại Trường đua Oi."
+ },
+ "200961": {
+  "name": "Đoạn thẳng cự ly Ngắn ◎",
+  "desc": "Tăng vừa phải tốc độ trên đoạn thẳng. (Ngắn)"
+ },
+ "200962": {
+  "name": "Đoạn thẳng cự ly Ngắn ○",
+  "desc": "Tăng nhẹ tốc độ trên đoạn thẳng. (Ngắn)"
+ },
+ "200963": {
+  "name": "Tia Chớp Chấn Động",
+  "desc": "Tăng tốc độ trên đoạn thẳng. (Ngắn)"
+ },
+ "200971": {
+  "name": "Khúc cua cự ly Ngắn ◎",
+  "desc": "Tăng vừa phải tốc độ ở khúc cua. (Ngắn)"
+ },
+ "200972": {
+  "name": "Khúc cua cự ly Ngắn ○",
+  "desc": "Tăng nhẹ tốc độ ở khúc cua. (Ngắn)"
+ },
+ "200981": {
+  "name": "Dẫn trước choáng ngợp",
+  "desc": "Tăng khả năng giữ vị trí dẫn đầu khi dẫn trước với khoảng cách lớn ở giữa chặng. (Ngắn)"
+ },
+ "200982": {
+  "name": "Dẫn cách biệt",
+  "desc": "Tăng nhẹ khả năng giữ vị trí dẫn đầu khi dẫn trước với khoảng cách lớn ở giữa chặng. (Ngắn)"
+ },
+ "200991": {
+  "name": "Kế hoạch X",
+  "desc": "Tăng khả năng vượt khi ở nhóm đầu lúc sắp vào cuối chặng. (Ngắn)"
+ },
+ "200992": {
+  "name": "Đối sách",
+  "desc": "Tăng nhẹ khả năng vượt khi ở nhóm đầu lúc sắp vào cuối chặng. (Ngắn)"
+ },
+ "201001": {
+  "name": "Chuẩn bị hoàn hảo!",
+  "desc": "Chuẩn bị lao về đích trong một khoảng thời gian trung bình ở giữa chặng. (Ngắn)"
+ },
+ "201002": {
+  "name": "Tính toán tỉ mỉ",
+  "desc": "Chuẩn bị vừa phải để lao về đích trong một khoảng thời gian trung bình ở giữa chặng. (Ngắn)"
+ },
+ "201011": {
+  "name": "Được mọi người yêu mến",
+  "desc": "Uy hiếp các đối thủ phía sau khi ở nhóm đầu vào đầu chặng. (Ngắn)"
+ },
+ "201012": {
+  "name": "Uy hiếp",
+  "desc": "Uy hiếp vừa phải các đối thủ phía sau khi ở nhóm đầu ở đầu chặng. (Ngắn)"
+ },
+ "201021": {
+  "name": "Không có cửa đâu",
+  "desc": "Gây hoảng loạn và làm chậm vừa phải chuyển động của các đối thủ phía trước khi ở nhóm sau ở đầu chặng. (Ngắn)"
+ },
+ "201022": {
+  "name": "Đứng lại đó!",
+  "desc": "Gây hoảng loạn nhẹ và làm chậm rất nhẹ chuyển động của các đối thủ phía trước khi ở nhóm sau ở đầu chặng. (Ngắn)"
+ },
+ "201031": {
+  "name": "Đoạn thẳng cự ly Dặm ◎",
+  "desc": "Tăng vừa phải tốc độ trên đoạn thẳng. (Dặm)"
+ },
+ "201032": {
+  "name": "Đoạn thẳng cự ly Dặm ○",
+  "desc": "Tăng nhẹ tốc độ trên đoạn thẳng. (Dặm)"
+ },
+ "201041": {
+  "name": "Khúc cua cự ly Dặm ◎",
+  "desc": "Tăng vừa phải tốc độ ở khúc cua. (Dặm)"
+ },
+ "201042": {
+  "name": "Khúc cua cự ly Dặm ○",
+  "desc": "Tăng nhẹ tốc độ ở khúc cua. (Dặm)"
+ },
+ "201051": {
+  "name": "Chuyển số",
+  "desc": "Tăng khả năng vượt khi ở nhóm đầu ở giữa chặng. (Dặm)"
+ },
+ "201052": {
+  "name": "Sang số",
+  "desc": "Tăng nhẹ khả năng vượt khi ở nhóm đầu ở giữa chặng. (Dặm)"
+ },
+ "201061": {
+  "name": "Đạp ga!",
+  "desc": "Tăng gia tốc khi vượt đối thủ ở nửa sau cuộc đua. (Dặm)"
+ },
+ "201062": {
+  "name": "Tăng tốc",
+  "desc": "Tăng nhẹ gia tốc khi vượt đối thủ ở nửa sau cuộc đua. (Dặm)"
+ },
+ "201071": {
+  "name": "Phong thái đàn chị",
+  "desc": "Tăng khả năng vượt. (Dặm)"
+ },
+ "201072": {
+  "name": "Tinh thần bất khuất",
+  "desc": "Tăng nhẹ khả năng vượt. (Dặm)"
+ },
+ "201081": {
+  "name": "Khát khao tốc độ",
+  "desc": "Cướp vừa phải tốc độ từ các đối thủ phía sau khi ở nhóm đầu ở giữa chặng. (Dặm)"
+ },
+ "201082": {
+  "name": "Kẻ nuốt tốc độ",
+  "desc": "Cướp nhẹ tốc độ từ các đối thủ phía sau khi ở nhóm đầu ở giữa chặng. (Dặm)"
+ },
+ "201091": {
+  "name": "Đội hình chiến đấu",
+  "desc": "Làm chậm chuyển động của các đối thủ phía trước khi ở nhóm sau ở đầu chặng. (Dặm)"
+ },
+ "201092": {
+  "name": "Nước cờ khai cuộc",
+  "desc": "Làm chậm nhẹ chuyển động của các đối thủ phía trước khi ở nhóm sau ở đầu chặng. (Dặm)"
+ },
+ "201101": {
+  "name": "Đoạn thẳng cự ly Trung ◎",
+  "desc": "Tăng vừa phải tốc độ trên đoạn thẳng. (Trung)"
+ },
+ "201102": {
+  "name": "Đoạn thẳng cự ly Trung ○",
+  "desc": "Tăng nhẹ tốc độ trên đoạn thẳng. (Trung)"
+ },
+ "201103": {
+  "name": "Lao về phía trước",
+  "desc": "Tăng tốc độ trên đoạn thẳng. (Trung)"
+ },
+ "201111": {
+  "name": "Khúc cua cự ly Trung ◎",
+  "desc": "Tăng vừa phải tốc độ ở khúc cua. (Trung)"
+ },
+ "201112": {
+  "name": "Khúc cua cự ly Trung ○",
+  "desc": "Tăng nhẹ tốc độ ở khúc cua. (Trung)"
+ },
+ "201113": {
+  "name": "Vòng Cung Khúc Xạ",
+  "desc": "Tăng tốc độ trên khúc cua. (Trung)"
+ },
+ "201121": {
+  "name": "Thấu thị",
+  "desc": "Mở rộng tầm nhìn nhờ khả năng quan sát được nâng cao ở đầu chặng. (Trung)"
+ },
+ "201122": {
+  "name": "Mắt diều hâu",
+  "desc": "Mở rộng vừa phải tầm nhìn nhờ khả năng quan sát được nâng cao ở đầu chặng. (Trung)"
+ },
+ "201131": {
+  "name": "Bước chân tia chớp",
+  "desc": "Tránh bị vây quanh trong một khoảng thời gian trung bình ở giữa chặng. (Trung)"
+ },
+ "201132": {
+  "name": "Bước chân sấm sét",
+  "desc": "Tránh bị vây quanh ở mức vừa phải trong một khoảng thời gian trung bình ở giữa chặng. (Trung)"
+ },
+ "201141": {
+  "name": "Bước chân kỳ diệu",
+  "desc": "Giảm mệt mỏi khi chuyển làn. (Trung)"
+ },
+ "201142": {
+  "name": "Bước chân nhẹ nhàng",
+  "desc": "Giảm nhẹ mệt mỏi khi chuyển làn. (Trung)"
+ },
+ "201151": {
+  "name": "Kẻ thống trị",
+  "desc": "Giảm tốc độ của các đối thủ phía trước khi ở nhóm sau ở cuối chặng. (Trung)"
+ },
+ "201152": {
+  "name": "Dây trói",
+  "desc": "Giảm nhẹ tốc độ của các đối thủ phía trước khi ở nhóm sau ở cuối chặng. (Trung)"
+ },
+ "201161": {
+  "name": "Lời thì thầm bí ẩn",
+  "desc": "Gây nhiễu các đối thủ ngay phía trước ở giữa chặng. (Trung)"
+ },
+ "201162": {
+  "name": "Thì thầm",
+  "desc": "Gây nhiễu nhẹ các đối thủ ngay phía trước ở giữa chặng. (Trung)"
+ },
+ "201171": {
+  "name": "Đoạn thẳng cự ly Dài ◎",
+  "desc": "Tăng vừa phải tốc độ trên đoạn thẳng. (Dài)"
+ },
+ "201172": {
+  "name": "Đoạn thẳng cự ly Dài ○",
+  "desc": "Tăng nhẹ tốc độ trên đoạn thẳng. (Dài)"
+ },
+ "201173": {
+  "name": "Bùng nổ tiến lên",
+  "desc": "Tăng tốc độ trên đoạn thẳng. (Dài)"
+ },
+ "201181": {
+  "name": "Khúc cua cự ly Dài ◎",
+  "desc": "Tăng vừa phải tốc độ ở khúc cua. (Dài)"
+ },
+ "201182": {
+  "name": "Khúc cua cự ly Dài ○",
+  "desc": "Tăng nhẹ tốc độ ở khúc cua. (Dài)"
+ },
+ "201191": {
+  "name": "Tinh thần tiên phong",
+  "desc": "Tăng khả năng giữ vị trí dẫn đầu khi dẫn trước với khoảng cách khá ở giữa chặng. (Dài)"
+ },
+ "201192": {
+  "name": "Giữ vững ngôi đầu",
+  "desc": "Tăng nhẹ khả năng giữ vị trí dẫn đầu khi dẫn trước với khoảng cách khá ở giữa chặng. (Dài)"
+ },
+ "201201": {
+  "name": "Vé VIP",
+  "desc": "Giảm mệt mỏi khi quyết tâm vượt đối thủ. (Dài)"
+ },
+ "201202": {
+  "name": "Cao thủ vượt mặt",
+  "desc": "Giảm nhẹ mệt mỏi khi quyết tâm vượt đối thủ. (Dài)"
+ },
+ "201211": {
+  "name": "Áp lực áp đảo",
+  "desc": "Tăng tốc độ và tăng rất nhẹ gia tốc sau khi vượt đối thủ ở cuối chặng. (Dài)"
+ },
+ "201212": {
+  "name": "Áp lực",
+  "desc": "Tăng nhẹ tốc độ và tăng cực nhẹ gia tốc sau khi vượt đối thủ ở cuối chặng. (Dài)"
+ },
+ "201221": {
+  "name": "Hút thể lực",
+  "desc": "Cướp nhẹ thể lực từ các đối thủ phía trước khi ở nhóm sau ở giữa chặng. (Dài)"
+ },
+ "201222": {
+  "name": "Kẻ nuốt thể lực",
+  "desc": "Cướp rất nhẹ thể lực từ các đối thủ phía trước khi ở nhóm sau ở giữa chặng. (Dài)"
+ },
+ "201231": {
+  "name": "Ảo thuật gia",
+  "desc": "Thu hẹp tầm nhìn của các đối thủ phía trước ở cuối chặng. (Dài)"
+ },
+ "201232": {
+  "name": "Màn khói",
+  "desc": "Thu hẹp vừa phải tầm nhìn của các đối thủ phía trước ở cuối chặng. (Dài)"
+ },
+ "201241": {
+  "name": "Đoạn thẳng Chạy đầu ◎",
+  "desc": "Tăng vừa phải tốc độ trên đoạn thẳng. (Chạy đầu)"
+ },
+ "201242": {
+  "name": "Đoạn thẳng Chạy đầu ○",
+  "desc": "Tăng nhẹ tốc độ trên đoạn thẳng. (Chạy đầu)"
+ },
+ "201251": {
+  "name": "Khúc cua Chạy đầu ◎",
+  "desc": "Tăng vừa phải tốc độ ở khúc cua. (Chạy đầu)"
+ },
+ "201252": {
+  "name": "Khúc cua Chạy đầu ○",
+  "desc": "Tăng nhẹ tốc độ ở khúc cua. (Chạy đầu)"
+ },
+ "201261": {
+  "name": "Giác quan thứ sáu",
+  "desc": "Tránh bị bao vây vào đầu chặng. (Chạy đầu)"
+ },
+ "201262": {
+  "name": "Né tránh hiểm nguy",
+  "desc": "Tránh bị vây quanh ở mức vừa phải ở đầu chặng. (Chạy đầu)"
+ },
+ "201271": {
+  "name": "Người dẫn đầu",
+  "desc": "Tăng khả năng vượt hoặc tranh đấu với đối thủ ở đầu chặng hoặc giữa chặng. (Chạy đầu)"
+ },
+ "201272": {
+  "name": "Niềm kiêu hãnh kẻ dẫn đầu",
+  "desc": "Tăng nhẹ khả năng vượt hoặc tranh chấp với đối thủ ở đầu chặng hoặc giữa chặng. (Chạy đầu)"
+ },
+ "201281": {
+  "name": "Không ngơi nghỉ",
+  "desc": "Giảm mệt mỏi trên dốc lên. (Chạy đầu)"
+ },
+ "201282": {
+  "name": "Gan dạ",
+  "desc": "Giảm nhẹ mệt mỏi trên dốc lên. (Chạy đầu)"
+ },
+ "201291": {
+  "name": "Tái khởi động",
+  "desc": "Tiêu hao vừa phải thể lực để tăng gia tốc ở cuối chặng. (Chạy đầu)"
+ },
+ "201292": {
+  "name": "Hơi thở thứ hai",
+  "desc": "Tiêu hao vừa phải thể lực để tăng nhẹ gia tốc ở cuối chặng. (Chạy đầu)"
+ },
+ "201302": {
+  "name": "Khởi động lại",
+  "desc": "Làm chậm nhẹ chuyển động của các đối thủ phía trước khi không dẫn đầu ở đầu chặng. (Chạy đầu)"
+ },
+ "201311": {
+  "name": "Đoạn thẳng Bám đuổi ◎",
+  "desc": "Tăng vừa phải tốc độ trên đoạn thẳng. (Bám đuổi)"
+ },
+ "201312": {
+  "name": "Đoạn thẳng Bám đuổi ○",
+  "desc": "Tăng nhẹ tốc độ trên đoạn thẳng. (Bám đuổi)"
+ },
+ "201321": {
+  "name": "Khúc cua Bám đuổi ◎",
+  "desc": "Tăng vừa phải tốc độ ở khúc cua. (Bám đuổi)"
+ },
+ "201322": {
+  "name": "Khúc cua Bám đuổi ○",
+  "desc": "Tăng nhẹ tốc độ ở khúc cua. (Bám đuổi)"
+ },
+ "201331": {
+  "name": "Kỹ thuật gia",
+  "desc": "Tăng vừa phải khả năng luồn lách trơn tru. (Bám đuổi)"
+ },
+ "201332": {
+  "name": "Bước chân lanh lợi",
+  "desc": "Tăng nhẹ khả năng luồn lách trơn tru. (Bám đuổi)"
+ },
+ "201341": {
+  "name": "Xuống dốc quyết tâm",
+  "desc": "Cải thiện vừa phải khả năng chạy trên dốc xuống. (Bám đuổi)"
+ },
+ "201342": {
+  "name": "Xuống dốc thẳng tiến",
+  "desc": "Cải thiện nhẹ khả năng chạy trên dốc xuống. (Bám đuổi)"
+ },
+ "201351": {
+  "name": "Kẻ sành ăn",
+  "desc": "Hồi thể lực ở giữa chặng. (Bám đuổi)"
+ },
+ "201352": {
+  "name": "Bù nước",
+  "desc": "Hồi nhẹ thể lực ở giữa chặng. (Bám đuổi)"
+ },
+ "201361": {
+  "name": "Không thể phá vỡ",
+  "desc": "Tăng vừa phải gia tốc khi ở nhóm sau ở giữa chặng. (Bám đuổi)"
+ },
+ "201362": {
+  "name": "Tinh chỉnh chiến thuật",
+  "desc": "Tăng nhẹ gia tốc khi ở nhóm sau ở giữa chặng. (Bám đuổi)"
+ },
+ "201371": {
+  "name": "Lóa mắt choáng váng",
+  "desc": "Thu hẹp tầm nhìn của các đối thủ phía sau ở mức vừa phải khi ở nhóm đầu vào cuối chặng. (Bám đuổi)"
+ },
+ "201372": {
+  "name": "Gây choáng",
+  "desc": "Thu hẹp nhẹ tầm nhìn của các đối thủ phía sau khi ở nhóm đầu vào cuối chặng. (Bám đuổi)"
+ },
+ "201381": {
+  "name": "Đoạn thẳng Bứt tốc ◎",
+  "desc": "Tăng tốc độ vừa phải trên đoạn thẳng. (Bứt tốc)"
+ },
+ "201382": {
+  "name": "Đoạn thẳng Bứt tốc ○",
+  "desc": "Tăng nhẹ tốc độ trên đoạn thẳng. (Bứt tốc)"
+ },
+ "201383": {
+  "name": "Vệt Sắc Bén",
+  "desc": "Tăng tốc độ trên đoạn thẳng. (Bứt tốc)"
+ },
+ "201391": {
+  "name": "Khúc cua Bứt tốc ◎",
+  "desc": "Tăng tốc độ vừa phải ở khúc cua. (Bứt tốc)"
+ },
+ "201392": {
+  "name": "Khúc cua Bứt tốc ○",
+  "desc": "Tăng nhẹ tốc độ ở khúc cua. (Bứt tốc)"
+ },
+ "201401": {
+  "name": "Người chăm chỉ",
+  "desc": "Tăng gia tốc vừa phải trong thời gian vừa phải khi cố vượt đối thủ. (Bứt tốc)"
+ },
+ "201402": {
+  "name": "Chiến binh",
+  "desc": "Tăng nhẹ gia tốc trong thời gian vừa phải khi cố vượt đối thủ. (Bứt tốc)"
+ },
+ "201411": {
+  "name": "15.000.000 CC",
+  "desc": "Tăng tốc độ khi lên dốc. (Bứt tốc)"
+ },
+ "201412": {
+  "name": "1.500.000 CC",
+  "desc": "Tăng nhẹ tốc độ khi lên dốc. (Bứt tốc)"
+ },
+ "201421": {
+  "name": "Thư giãn",
+  "desc": "Hồi thể lực khi ở giữa nhóm hoặc phía sau vào giữa chặng. (Bứt tốc)"
+ },
+ "201422": {
+  "name": "Nghỉ lấy hơi",
+  "desc": "Hồi nhẹ thể lực khi ở giữa nhóm hoặc phía sau vào giữa chặng. (Bứt tốc)"
+ },
+ "201431": {
+  "name": "Tầm nhìn toàn cảnh",
+  "desc": "Mở rộng tầm nhìn nhờ khả năng quan sát nhạy bén vào giữa chặng. (Bứt tốc)"
+ },
+ "201432": {
+  "name": "Ham học hỏi",
+  "desc": "Mở rộng nhẹ tầm nhìn nhờ khả năng quan sát nhạy bén vào giữa chặng. (Bứt tốc)"
+ },
+ "201441": {
+  "name": "Đôi mắt thấu suốt",
+  "desc": "Làm các đối thủ khác giật mình vào cuối chặng. (Bứt tốc)"
+ },
+ "201442": {
+  "name": "Ánh nhìn sắc lẹm",
+  "desc": "Làm các đối thủ khác hơi giật mình vào cuối chặng. (Bứt tốc)"
+ },
+ "201451": {
+  "name": "Đoạn thẳng Rượt cuối ◎",
+  "desc": "Tăng tốc độ vừa phải trên đoạn thẳng. (Rượt cuối)"
+ },
+ "201452": {
+  "name": "Đoạn thẳng Rượt cuối ○",
+  "desc": "Tăng nhẹ tốc độ trên đoạn thẳng. (Rượt cuối)"
+ },
+ "201453": {
+  "name": "Tia Chớp Ánh Trăng",
+  "desc": "Tăng tốc độ trên đoạn thẳng. (Rượt cuối)"
+ },
+ "201461": {
+  "name": "Khúc cua Rượt cuối ◎",
+  "desc": "Tăng tốc độ vừa phải ở khúc cua. (Rượt cuối)"
+ },
+ "201462": {
+  "name": "Khúc cua Rượt cuối ○",
+  "desc": "Tăng nhẹ tốc độ ở khúc cua. (Rượt cuối)"
+ },
+ "201471": {
+  "name": "Đường đã thông!",
+  "desc": "Mở rộng tầm nhìn ở mức vừa phải nhờ nắm bắt tình hình khi chuyển làn. (Rượt cuối)"
+ },
+ "201472": {
+  "name": "Nhìn thấu cậu rồi",
+  "desc": "Mở rộng nhẹ tầm nhìn nhờ nắm bắt tình hình khi chuyển làn. (Rượt cuối)"
+ },
+ "201481": {
+  "name": "Chuyên gia về nhà",
+  "desc": "Giảm mệt mỏi khi xuống dốc. (Rượt cuối)"
+ },
+ "201482": {
+  "name": "Dạo bước tan trường",
+  "desc": "Giảm nhẹ mệt mỏi khi xuống dốc. (Rượt cuối)"
+ },
+ "201491": {
+  "name": "Thanh thản",
+  "desc": "Thư giãn và hồi thể lực khi bám ngay sau một đối thủ. (Rượt cuối)"
+ },
+ "201492": {
+  "name": "Bình tĩnh",
+  "desc": "Thư giãn và hồi nhẹ thể lực khi bám ngay sau một đối thủ. (Rượt cuối)"
+ },
+ "201501": {
+  "name": "Thập tự quân",
+  "desc": "Mở rộng tầm nhìn khi ở nhóm sau vào cuối chặng. (Rượt cuối)"
+ },
+ "201502": {
+  "name": "Nhà chiến lược",
+  "desc": "Mở rộng nhẹ tầm nhìn khi ở nhóm sau vào cuối chặng. (Rượt cuối)"
+ },
+ "201511": {
+  "name": "Ánh mắt hóa đá",
+  "desc": "Làm nao núng các đối thủ bị nhắm tới vào cuối chặng. (Rượt cuối)"
+ },
+ "201512": {
+  "name": "Ánh mắt dữ dội",
+  "desc": "Làm hơi nao núng các đối thủ bị nhắm tới vào cuối chặng. (Rượt cuối)"
+ },
+ "201521": {
+  "name": "Am hiểu Chạy đầu ◎",
+  "desc": "Tăng khả năng chiếm vị trí thuận lợi. (Chạy đầu)"
+ },
+ "201522": {
+  "name": "Am hiểu Chạy đầu ○",
+  "desc": "Tăng vừa phải khả năng chiếm vị trí thuận lợi. (Chạy đầu)"
+ },
+ "201531": {
+  "name": "Am hiểu Bám đuổi ◎",
+  "desc": "Tăng khả năng chiếm vị trí thuận lợi. (Bám đuổi)"
+ },
+ "201532": {
+  "name": "Am hiểu Bám đuổi ○",
+  "desc": "Tăng vừa phải khả năng chiếm vị trí thuận lợi. (Bám đuổi)"
+ },
+ "201541": {
+  "name": "Am hiểu Bứt tốc ◎",
+  "desc": "Tăng khả năng chiếm vị trí thuận lợi. (Bứt tốc)"
+ },
+ "201542": {
+  "name": "Am hiểu Bứt tốc ○",
+  "desc": "Tăng vừa phải khả năng chiếm vị trí thuận lợi. (Bứt tốc)"
+ },
+ "201551": {
+  "name": "Am hiểu Rượt cuối ◎",
+  "desc": "Tăng khả năng chiếm vị trí thuận lợi. (Rượt cuối)"
+ },
+ "201552": {
+  "name": "Am hiểu Rượt cuối ○",
+  "desc": "Tăng vừa phải khả năng chiếm vị trí thuận lợi. (Rượt cuối)"
+ },
+ "201561": {
+  "name": "Siêu may mắn số 7",
+  "desc": "Có thể gặp chuyện tốt khi ở khung số 7."
+ },
+ "201562": {
+  "name": "May mắn số 7",
+  "desc": "Có thể gặp chuyện khá tốt khi ở khung số 7."
+ },
+ "201571": {
+  "name": "Bộ ba số 7",
+  "desc": "Nạp thêm năng lượng nhẹ khi còn 777m."
+ },
+ "201581": {
+  "name": "Dân vùng cao",
+  "desc": "Chạy tốt hơn một chút khi lên dốc."
+ },
+ "201591": {
+  "name": "Fan cuồng Uma",
+  "desc": "Tăng nhẹ tốc độ khi ở gần nhiều đối thủ."
+ },
+ "201592": {
+  "name": "Siêu fan cuồng",
+  "desc": "Tăng tốc độ khi ở gần nhiều đối thủ."
+ },
+ "201601": {
+  "name": "Đặt nền móng",
+  "desc": "Tăng nhẹ gia tốc sau khi kích hoạt nhiều kỹ năng ở đầu chặng."
+ },
+ "201611": {
+  "name": "Đuôi vểnh cao",
+  "desc": "Tăng nhẹ tốc độ sau khi kích hoạt nhiều kỹ năng ở giữa chặng."
+ },
+ "201612": {
+  "name": "Cửu vĩ",
+  "desc": "Tăng tốc độ sau khi kích hoạt nhiều kỹ năng ở giữa chặng."
+ },
+ "201621": {
+  "name": "Rũ bỏ mệt nhọc",
+  "desc": "Hồi nhẹ thể lực sau khi kích hoạt nhiều kỹ năng ở cuối chặng."
+ },
+ "201631": {
+  "name": "Đồng cảm",
+  "desc": "Tăng phong độ vừa phải khi nhiều đối thủ cùng có trái tim đồng cảm."
+ },
+ "201641": {
+  "name": "Sói đơn độc",
+  "desc": "Tăng phong độ vừa phải khi không đối thủ nào khác có trái tim sói đơn độc."
+ },
+ "201651": {
+  "name": "Chạy nấp gió",
+  "desc": "Giảm nhẹ sức cản của gió khi bám ngay sau một đối thủ."
+ },
+ "201652": {
+  "name": "Vị Trí Hoàn Hảo!",
+  "desc": "Giảm sức cản gió khi bám ngay phía sau một đối thủ."
+ },
+ "201661": {
+  "name": "Hết giờ chơi rồi!",
+  "desc": "Tăng nhẹ tốc độ khi bị một đối thủ bám ngay phía sau trong thời gian dài."
+ },
+ "201662": {
+  "name": "Hẹn Gặp Lại!",
+  "desc": "Tăng tốc độ khi bị một đối thủ bám ngay phía sau trong thời gian dài."
+ },
+ "201671": {
+  "name": "Đứng đầu bảng xếp hạng!",
+  "desc": "Tăng tốc độ khi đang tranh đấu với đối thủ vào giữa chặng. (Sân đất)"
+ },
+ "201672": {
+  "name": "Lựa chọn hàng đầu",
+  "desc": "Tăng nhẹ tốc độ khi đang tranh đấu với đối thủ vào giữa chặng. (Sân đất)"
+ },
+ "201681": {
+  "name": "Dẫn đầu xung phong!",
+  "desc": "Chuẩn bị nhắm lên phía trước vào cuối chặng. (Sân đất)"
+ },
+ "201682": {
+  "name": "Tiến lên, hành quân!",
+  "desc": "Chuẩn bị ở mức vừa phải để nhắm lên phía trước vào cuối chặng. (Sân đất)"
+ },
+ "201691": {
+  "name": "Mai phục",
+  "desc": "Hồi thể lực khi ở giữa nhóm hoặc phía sau lúc sắp vào giữa chặng. (Bứt tốc)"
+ },
+ "201692": {
+  "name": "Lặng im chờ thời",
+  "desc": "Hồi nhẹ thể lực khi ở giữa nhóm hoặc phía sau lúc sắp vào giữa chặng. (Bứt tốc)"
+ },
+ "201701": {
+  "name": "Đến đâu thì đến",
+  "desc": "Tăng tốc độ khi ở vị trí thuận lợi trên đoạn thẳng trong nước rút cuối. (Trung)"
+ },
+ "201702": {
+  "name": "Dốc hết sức mình",
+  "desc": "Tăng nhẹ tốc độ khi ở vị trí thuận lợi trên đoạn thẳng trong nước rút cuối. (Trung)"
+ },
+ "201801": {
+  "name": "♡ Móng tay 3D",
+  "desc": "Giảm phong độ vừa phải trên mặt sân khô."
+ },
+ "201901": {
+  "name": "Sát Nút",
+  "desc": "Tăng gia tốc khi ở nhóm đầu ở phần đầu của cuối chặng. (Bám đuổi)"
+ },
+ "201902": {
+  "name": "Đối đầu trực diện",
+  "desc": "Tăng nhẹ gia tốc khi ở nhóm đầu trong phần đầu của cuối chặng. (Bám đuổi)"
+ },
+ "202001": {
+  "name": "Bậc Thầy Cát Bụi",
+  "desc": "Hồi thể lực và tăng tốc độ khi ở nhóm sau trong giữa chặng. (Sân đất)"
+ },
+ "202002": {
+  "name": "Sân nhà quen thuộc",
+  "desc": "Hồi nhẹ thể lực khi ở nhóm sau vào giữa chặng. (Sân đất)"
+ },
+ "202011": {
+  "name": "Ngôi sao chính",
+  "desc": "Tăng tốc độ khi ở nhóm đầu lúc sắp vào cuối chặng. (Dài)"
+ },
+ "202012": {
+  "name": "Tiết mục nổi bật",
+  "desc": "Tăng nhẹ tốc độ khi ở nhóm đầu lúc sắp vào cuối chặng. (Dài)"
+ },
+ "202021": {
+  "name": "Đòn tấn công táo bạo",
+  "desc": "Tăng tốc độ vừa phải trong thời gian vừa phải khi ở nhóm sau vào giữa chặng. (Rượt cuối)"
+ },
+ "202022": {
+  "name": "Khởi động sớm",
+  "desc": "Tăng rất nhẹ tốc độ trong thời gian vừa phải khi ở nhóm sau vào giữa chặng. (Rượt cuối)"
+ },
+ "202031": {
+  "name": "Không liều không ăn",
+  "desc": "Tăng mạnh tốc độ trong nửa sau cuộc đua, nhưng đôi khi cũng tăng mạnh mệt mỏi."
+ },
+ "202032": {
+  "name": "Canh bạc mạo hiểm",
+  "desc": "Tăng tốc độ vừa phải trong nửa sau cuộc đua, nhưng đôi khi cũng tăng mạnh mệt mỏi."
+ },
+ "202041": {
+  "name": "Tinh thần phấn chấn",
+  "desc": "Tăng tốc độ khi ở nhóm đầu lúc sắp vào cuối chặng. (Ngắn)"
+ },
+ "202042": {
+  "name": "Nhẹ tựa lông hồng",
+  "desc": "Tăng nhẹ tốc độ khi ở nhóm đầu lúc sắp vào cuối chặng. (Ngắn)"
+ },
+ "202051": {
+  "name": "Bỏ xa",
+  "desc": "Cố tạo khoảng cách dẫn trước đặc biệt lớn và giữ nó đến khi về đích. (Chạy đầu)"
+ },
+ "202061": {
+  "name": "Số một Nhật Bản",
+  "desc": "Kỳ vọng của mọi người tiếp thêm cảm hứng mạnh mẽ, tăng tốc độ ở khúc cua cuối. (Dài)"
+ },
+ "202071": {
+  "name": "Tâm trí an nhiên",
+  "desc": "Giảm nhẹ tốc độ và hồi mạnh thể lực khi ở giữa nhóm trong phần đầu của giữa chặng. (Dài)"
+ },
+ "202072": {
+  "name": "Tự do tự tại",
+  "desc": "Giảm nhẹ tốc độ và hồi thể lực vừa phải khi ở giữa nhóm trong phần đầu của giữa chặng. (Dài)"
+ },
+ "202081": {
+  "name": "Từ bờ vực",
+  "desc": "Tăng gia tốc khi ở giữa nhóm hoặc phía sau trong phần đầu của cuối chặng. (Trung)"
+ },
+ "202082": {
+  "name": "Nắm Bắt Thời Cơ",
+  "desc": "Tăng nhẹ gia tốc khi ở giữa nhóm hoặc xa hơn về phía sau ở phần đầu của cuối chặng. (Trung)"
+ },
+ "202091": {
+  "name": "Linh Hồn Rực Cháy",
+  "desc": "Hồi thể lực vừa phải và tăng tốc độ khi đang tranh đấu ở giữa nhóm trong giữa chặng. (Trung)"
+ },
+ "202092": {
+  "name": "Tinh Thần Chiến Đấu",
+  "desc": "Khi đang tranh đấu ở giữa nhóm trong giữa chặng, hồi thể lực rất nhẹ và tăng nhẹ tốc độ. (Trung)"
+ },
+ "202101": {
+  "name": "Hân Hoan",
+  "desc": "Khi ở nhóm sau trong giữa chặng, tăng tốc độ. (Trung)"
+ },
+ "202102": {
+  "name": "Háo Hức",
+  "desc": "Khi ở nhóm sau trong giữa chặng, tăng nhẹ tốc độ. (Trung)"
+ },
+ "202111": {
+  "name": "Tràn Đầy Sinh Lực",
+  "desc": "Khi ở nhóm sau trên khúc cua cuối, tăng tốc độ. (Dặm)"
+ },
+ "202112": {
+  "name": "Phấn Chấn",
+  "desc": "Khi ở nhóm sau trên khúc cua cuối, tăng nhẹ tốc độ. (Dặm)"
+ },
+ "202121": {
+  "name": "Gan Dạ",
+  "desc": "Khi ở giữa nhóm trong nửa sau cuộc đua, tăng tốc độ và tăng gia tốc rất nhẹ. (Bứt tốc)"
+ },
+ "202122": {
+  "name": "Không Sợ Hãi",
+  "desc": "Khi ở giữa nhóm trong nửa sau cuộc đua, tăng nhẹ tốc độ và tăng gia tốc cực nhẹ. (Bứt tốc)"
+ },
+ "202131": {
+  "name": "Cuồng Phong",
+  "desc": "Khi ở nhóm đầu trong giữa chặng, tăng tốc độ và giảm nhẹ tốc độ của các đối thủ phía sau. (Trung)"
+ },
+ "202132": {
+  "name": "Bằng Cả Trái Tim",
+  "desc": "Khi ở nhóm đầu trong giữa chặng, tăng nhẹ tốc độ và giảm cực nhẹ tốc độ của các đối thủ phía sau. (Trung)"
+ },
+ "202141": {
+  "name": "Đừng Hòng Sai Bảo Tôi!",
+  "desc": "Tăng thời gian bị mất do xuất phát chậm và giảm Wit vừa phải."
+ },
+ "202151": {
+  "name": "Cố Lên!",
+  "desc": "Tiêu hao thể lực vừa phải để tăng mạnh tốc độ trong giữa chặng. (Bứt tốc)"
+ },
+ "202152": {
+  "name": "Hết Ga",
+  "desc": "Tiêu hao thể lực vừa phải để tăng tốc độ vừa phải trong giữa chặng. (Bứt tốc)"
+ },
+ "202161": {
+  "name": "Kiềm Chế",
+  "desc": "Tăng Wit và giảm vừa phải khả năng bị nôn nóng (Rushed)."
+ },
+ "202172": {
+  "name": "Tay Đua Đổ Dốc",
+  "desc": "Tăng nhẹ tốc độ trên dốc xuống."
+ },
+ "202181": {
+  "name": "Trăm Mối Lo",
+  "desc": "Bị áp đảo bởi các đối thủ mạnh, giảm vừa phải Guts và Wit."
+ },
+ "202191": {
+  "name": "Trái Tim Sẵn Sàng",
+  "desc": "Nếu không xuất phát muộn, hồi mạnh thể lực ở phần đầu của giữa chặng. (Bám đuổi, Dài)"
+ },
+ "202192": {
+  "name": "Sẵn Sàng",
+  "desc": "Nếu không xuất phát muộn, hồi thể lực vừa phải ở phần đầu của giữa chặng. (Bám đuổi, Dài)"
+ },
+ "202201": {
+  "name": "Trường đua Kawasaki ◎",
+  "desc": "Tăng phong độ tại trường đua Kawasaki."
+ },
+ "202202": {
+  "name": "Trường đua Kawasaki ○",
+  "desc": "Tăng phong độ vừa phải tại trường đua Kawasaki."
+ },
+ "202203": {
+  "name": "Trường đua Kawasaki ×",
+  "desc": "Giảm phong độ vừa phải tại trường đua Kawasaki."
+ },
+ "202211": {
+  "name": "Trường đua Funabashi ◎",
+  "desc": "Tăng phong độ tại trường đua Funabashi."
+ },
+ "202212": {
+  "name": "Trường đua Funabashi ○",
+  "desc": "Tăng phong độ vừa phải tại trường đua Funabashi."
+ },
+ "202213": {
+  "name": "Trường đua Funabashi ×",
+  "desc": "Giảm phong độ vừa phải tại trường đua Funabashi."
+ },
+ "202221": {
+  "name": "Trường đua Morioka ◎",
+  "desc": "Tăng phong độ tại trường đua Morioka."
+ },
+ "202222": {
+  "name": "Trường đua Morioka ○",
+  "desc": "Tăng phong độ vừa phải tại trường đua Morioka."
+ },
+ "202223": {
+  "name": "Trường đua Morioka ×",
+  "desc": "Giảm phong độ vừa phải tại trường đua Morioka."
+ },
+ "202231": {
+  "name": "Đua Đêm ◎",
+  "desc": "Tăng phong độ khi đua vào ban đêm."
+ },
+ "202232": {
+  "name": "Đua Đêm ○",
+  "desc": "Tăng phong độ vừa phải khi đua vào ban đêm."
+ },
+ "202233": {
+  "name": "Đua Đêm ×",
+  "desc": "Giảm phong độ vừa phải khi đua vào ban đêm."
+ },
+ "202241": {
+  "name": "Cua Gắt ◎",
+  "desc": "Tăng phong độ trên đường đua có khúc cua gắt."
+ },
+ "202242": {
+  "name": "Cua Gắt ○",
+  "desc": "Tăng phong độ vừa phải trên đường đua có khúc cua gắt."
+ },
+ "202243": {
+  "name": "Cua Gắt ×",
+  "desc": "Giảm phong độ vừa phải trên đường đua có khúc cua gắt."
+ },
+ "202251": {
+  "name": "Giải Đua Hợp Tác ◎",
+  "desc": "Tăng phong độ trong các giải đua xếp hạng hợp tác."
+ },
+ "202252": {
+  "name": "Giải Đua Hợp Tác ○",
+  "desc": "Tăng phong độ vừa phải trong các giải đua xếp hạng hợp tác."
+ },
+ "202253": {
+  "name": "Giải Đua Hợp Tác ×",
+  "desc": "Giảm phong độ vừa phải trong các giải đua xếp hạng hợp tác."
+ },
+ "202261": {
+  "name": "Cơ Hội Chiến Thắng",
+  "desc": "Tăng tốc độ khi ở nhóm đầu khi sắp vào cuối chặng. (Sân đất)"
+ },
+ "202262": {
+  "name": "Điềm Lành",
+  "desc": "Tăng nhẹ tốc độ khi ở nhóm đầu khi sắp vào cuối chặng. (Sân đất)"
+ },
+ "202271": {
+  "name": "Không Thể Quật Ngã",
+  "desc": "Tăng tốc độ khi ở nhóm sau trong giữa chặng. (Sân đất)"
+ },
+ "202272": {
+  "name": "Lội Ngược Dòng",
+  "desc": "Tăng nhẹ tốc độ khi ở nhóm sau trong giữa chặng. (Sân đất)"
+ },
+ "202281": {
+  "name": "Toàn Tốc!",
+  "desc": "Tăng tốc độ khi ở nhóm đầu trong nước rút cuối. (Sân đất)"
+ },
+ "202282": {
+  "name": "Dốc Sức",
+  "desc": "Tăng nhẹ tốc độ khi ở nhóm đầu trong nước rút cuối. (Sân đất)"
+ },
+ "202291": {
+  "name": "Trong Suốt",
+  "desc": "Tăng tốc độ khi ở nhóm sau ở phần đầu của giữa chặng sau khi đã hồi thể lực bằng kỹ năng. (Sân đất)"
+ },
+ "202292": {
+  "name": "Lý Trí",
+  "desc": "Tăng nhẹ tốc độ khi ở nhóm sau ở phần đầu của giữa chặng sau khi đã hồi thể lực bằng kỹ năng. (Sân đất)"
+ },
+ "202301": {
+  "name": "Vũ Công Sân Đất",
+  "desc": "Tăng tốc độ khi bám ngay phía sau một đối thủ. (Sân đất)"
+ },
+ "202302": {
+  "name": "Lăn Lộn Sân Đất ○",
+  "desc": "Tăng nhẹ tốc độ khi bám ngay phía sau một đối thủ. (Sân đất)"
+ },
+ "202303": {
+  "name": "Lăn Lộn Sân Đất ×",
+  "desc": "Giảm tốc độ vừa phải khi bám ngay phía sau một đối thủ. (Sân đất)"
+ },
+ "202311": {
+  "name": "Làm Trung Tâm!",
+  "desc": "Tăng gia tốc khi ở nhóm đầu trong cuối chặng. (Sân đất)"
+ },
+ "202312": {
+  "name": "Đầy Khí Thế!",
+  "desc": "Tăng nhẹ gia tốc khi ở nhóm đầu trong cuối chặng. (Sân đất)"
+ },
+ "202321": {
+  "name": "Chạy Như Điên!",
+  "desc": "Tăng gia tốc khi ở giữa nhóm hoặc xa hơn về phía sau trong cuối chặng. (Sân đất)"
+ },
+ "202322": {
+  "name": "Rút Ngắn Nhanh",
+  "desc": "Tăng nhẹ gia tốc khi ở giữa nhóm hoặc xa hơn về phía sau trong cuối chặng. (Sân đất)"
+ },
+ "202331": {
+  "name": "Bước Chân Mạnh Mẽ",
+  "desc": "Tăng Speed khi Power vượt quá một mức nhất định. Nếu Power vượt xa mức đó thì tăng mạnh Speed. (Sân đất)"
+ },
+ "202332": {
+  "name": "Bước Chân Vững Chắc",
+  "desc": "Tăng nhẹ Speed khi Power vượt quá một mức nhất định. Nếu Power vượt xa mức đó thì tăng Speed vừa phải. (Sân đất)"
+ },
+ "202341": {
+  "name": "Bậc Thầy Bùn Lầy",
+  "desc": "Tăng phong độ trên mặt sân mềm và nặng, tăng Speed và Power. (Sân đất)"
+ },
+ "202342": {
+  "name": "Sân Bùn ◎",
+  "desc": "Tăng phong độ trên mặt sân mềm và nặng, tăng Tốc độ. (Sân đất)"
+ },
+ "202343": {
+  "name": "Sân Bùn ○",
+  "desc": "Tăng phong độ trên mặt sân mềm và nặng, tăng Tốc độ vừa phải. (Sân đất)"
+ },
+ "202344": {
+  "name": "Sân Bùn ×",
+  "desc": "Giảm phong độ trên mặt sân mềm và nặng, giảm Tốc độ vừa phải. (Sân đất)"
+ },
+ "202351": {
+  "name": "Thần Tượng Bụi Mù",
+  "desc": "Giảm tốc độ của đối thủ ngay phía sau khi đang dẫn đầu trong đầu chặng. (Sân đất)"
+ },
+ "202352": {
+  "name": "Bụi Mù",
+  "desc": "Giảm nhẹ tốc độ của đối thủ ngay phía sau khi đang dẫn đầu trong đầu chặng. (Sân đất)"
+ },
+ "202361": {
+  "name": "Đánh Úp Bất Ngờ",
+  "desc": "Uy hiếp đối thủ đã dùng kỹ năng hồi phục trong nửa sau cuộc đua. (Sân đất)"
+ },
+ "202362": {
+  "name": "Áp Bức",
+  "desc": "Uy hiếp nhẹ đối thủ đã dùng kỹ năng hồi phục trong nửa sau cuộc đua. (Sân đất)"
+ },
+ "202371": {
+  "name": "Không Thể Cản Phá",
+  "desc": "Tăng tốc độ trong giữa chặng. (Bám đuổi)"
+ },
+ "202372": {
+  "name": "Tấn Công",
+  "desc": "Tăng nhẹ tốc độ trong giữa chặng. (Bám đuổi)"
+ },
+ "202381": {
+  "name": "Xé Gió Vượt Lên",
+  "desc": "Tăng tốc độ và tăng khả năng luồn lách khi ở khoảng cuối nhóm trong giữa chặng. (Rượt cuối)"
+ },
+ "202382": {
+  "name": "Thoát Vây",
+  "desc": "Tăng nhẹ tốc độ và tăng nhẹ khả năng luồn lách khi ở khoảng cuối nhóm trong giữa chặng. (Rượt cuối)"
+ },
+ "202391": {
+  "name": "Hết Mình 1000%",
+  "desc": "Tiêu hao mạnh thể lực và tăng mạnh tốc độ ở phần đầu của giữa chặng. (Chạy đầu)"
+ },
+ "202392": {
+  "name": "Lao Như Điên",
+  "desc": "Tiêu hao mạnh thể lực và tăng tốc độ vừa phải ở phần đầu của giữa chặng. (Chạy đầu)"
+ },
+ "202401": {
+  "name": "Sấm Sét Bùng Nổ",
+  "desc": "Tăng gia tốc khi cố vượt đối thủ từ phía sau trong cuối chặng. (Ngắn/Dặm)"
+ },
+ "202402": {
+  "name": "Bật Lên Phía Trước",
+  "desc": "Tăng nhẹ gia tốc khi cố vượt đối thủ từ phía sau trong cuối chặng. (Ngắn/Dặm)"
+ },
+ "202411": {
+  "name": "Làn Gió Tham Vọng",
+  "desc": "Tăng tốc độ vừa phải trong thời gian trung bình khi ở vị trí thứ 2 trở xuống và cách người dẫn đầu trong vòng 2 thân ngay trước cuối chặng. (Bám đuổi)"
+ },
+ "202412": {
+  "name": "Khát Vọng",
+  "desc": "Tăng tốc độ rất nhẹ trong thời gian trung bình khi ở vị trí thứ 2 trở xuống và cách người dẫn đầu trong vòng 2 thân ngay trước cuối chặng. (Bám đuổi)"
+ },
+ "202421": {
+  "name": "Cào Lên Phía Trước",
+  "desc": "Tiêu hao thể lực vừa phải để tăng gia tốc khi ở giữa nhóm hoặc xa hơn về phía sau trong nước rút cuối. (Bứt tốc, Dài)"
+ },
+ "202422": {
+  "name": "Tranh Giành",
+  "desc": "Tiêu hao thể lực vừa phải để tăng nhẹ gia tốc khi ở giữa nhóm hoặc xa hơn về phía sau trong nước rút cuối. (Bứt tốc, Dài)"
+ },
+ "202431": {
+  "name": "Đòn Đánh Vững Chắc",
+  "desc": "Tăng tốc độ và gia tốc vừa phải khi sắp vào cuối chặng nếu đang dẫn đầu hoặc cách người dẫn đầu trong vòng 4 thân. (Bám đuổi, Trung)"
+ },
+ "202432": {
+  "name": "Bước Chạy Vững Vàng",
+  "desc": "Tăng tốc độ và gia tốc rất nhẹ khi sắp vào cuối chặng nếu đang dẫn đầu hoặc cách người dẫn đầu trong vòng 4 thân. (Bám đuổi, Trung)"
+ },
+ "202441": {
+  "name": "Kẻ Tạo Rủi Ro",
+  "desc": "Thỉnh thoảng khai mở sức mạnh tiềm ẩn, tăng mạnh Speed, Power và Guts. Dễ kích hoạt hơn khi không được đánh giá cao."
+ },
+ "202442": {
+  "name": "Kẻ Chấp Nhận Rủi Ro",
+  "desc": "Rất hiếm khi khai mở sức mạnh tiềm ẩn, tăng vừa phải Speed, Power và Guts. Dễ kích hoạt hơn khi không được đánh giá cao."
+ },
+ "202451": {
+  "name": "Số Cao Nhất",
+  "desc": "Tăng mạnh tốc độ khi ở vị trí thứ 2 trở xuống và cách người dẫn đầu trong vòng 4 thân trên đoạn thẳng cuối. (Bứt tốc)"
+ },
+ "202452": {
+  "name": "Đạp Lút Ga",
+  "desc": "Tăng tốc độ vừa phải khi ở vị trí thứ 2 trở xuống và cách người dẫn đầu trong vòng 4 thân trên đoạn thẳng cuối. (Bứt tốc)"
+ },
+ "202461": {
+  "name": "Đuổi Theo Bóng Cũng Không Kịp",
+  "desc": "Tăng mạnh tốc độ khi đang dẫn đầu trên đoạn thẳng cuối và có đối thủ khác trong vòng 1 thân phía sau. (Chạy đầu)"
+ },
+ "202462": {
+  "name": "Quyết Tâm Sắt Đá",
+  "desc": "Tăng tốc độ vừa phải khi đang dẫn đầu trên đoạn thẳng cuối và có đối thủ khác trong vòng 1 thân phía sau. (Chạy đầu)"
+ },
+ "202471": {
+  "name": "Truy Đuổi Gắt Gao",
+  "desc": "Tăng tốc độ khi cố vượt đối thủ trong nửa sau cuộc đua. (Bám đuổi/Bứt tốc)"
+ },
+ "202472": {
+  "name": "Bám Riết",
+  "desc": "Tăng nhẹ tốc độ khi cố vượt đối thủ trong nửa sau cuộc đua. (Bám đuổi/Bứt tốc)"
+ },
+ "202481": {
+  "name": "Chế Độ Quái Thú",
+  "desc": "Tăng gia tốc trong cuối chặng nếu đã dẫn đầu hoặc cách người dẫn đầu trong vòng 4 thân ngay trước cuối chặng. (Bám đuổi, Dài)"
+ },
+ "202482": {
+  "name": "Sức Mạnh Thật Sự",
+  "desc": "Tăng nhẹ gia tốc trong cuối chặng nếu đã dẫn đầu hoặc cách người dẫn đầu trong vòng 4 thân ngay trước cuối chặng. (Bám đuổi, Dài)"
+ },
+ "202491": {
+  "name": "Bước Chân Sắc Lẹm",
+  "desc": "Tăng gia tốc ở phần đầu của cuối chặng nếu đã ở nhóm sau mà không nôn nóng cho đến khi bắt đầu cuối chặng. (Rượt cuối)"
+ },
+ "202492": {
+  "name": "Bước Chân Sắc Bén",
+  "desc": "Tăng nhẹ gia tốc ở phần đầu của cuối chặng nếu đã ở nhóm sau mà không nôn nóng cho đến khi bắt đầu cuối chặng. (Rượt cuối)"
+ },
+ "202501": {
+  "name": "Xung Phong Liều Lĩnh",
+  "desc": "Tăng tốc độ khi ở nhóm đầu khi sắp vào cuối chặng. (Dặm)"
+ },
+ "202502": {
+  "name": "Không Ngoảnh Lại",
+  "desc": "Tăng nhẹ tốc độ khi ở nhóm đầu khi sắp vào cuối chặng. (Dặm)"
+ },
+ "210011": {
+  "name": "Tinh thần rực cháy SPD",
+  "desc": "Bùng cháy cùng tinh thần đồng đội, tăng tốc độ tỉ lệ với tổng Speed của các thành viên đội đua vào giữa chặng."
+ },
+ "210012": {
+  "name": "Tinh thần bừng lửa SPD",
+  "desc": "Bùng cháy cùng tinh thần đồng đội, tăng nhẹ tốc độ tỉ lệ với tổng Speed của các thành viên đội đua vào giữa chặng."
+ },
+ "210021": {
+  "name": "Tinh thần rực cháy STA",
+  "desc": "Bùng cháy cùng tinh thần đồng đội, hồi thể lực tỉ lệ với tổng Stamina của các thành viên đội đua vào giữa chặng."
+ },
+ "210022": {
+  "name": "Tinh thần bừng lửa STA",
+  "desc": "Bùng cháy cùng tinh thần đồng đội, hồi nhẹ thể lực tỉ lệ với tổng Stamina của các thành viên đội đua vào giữa chặng."
+ },
+ "210031": {
+  "name": "Tinh thần rực cháy PWR",
+  "desc": "Bùng cháy cùng tinh thần đồng đội, tăng gia tốc tỉ lệ với tổng Power của các thành viên đội đua vào cuối chặng."
+ },
+ "210032": {
+  "name": "Tinh thần bừng lửa PWR",
+  "desc": "Bùng cháy cùng tinh thần đồng đội, tăng nhẹ gia tốc tỉ lệ với tổng Power của các thành viên đội đua vào cuối chặng."
+ },
+ "210041": {
+  "name": "Tinh thần rực cháy GUTS",
+  "desc": "Bùng cháy cùng tinh thần đồng đội, tăng khí thế tỉ lệ với tổng Guts của các thành viên đội đua vào cuối chặng."
+ },
+ "210042": {
+  "name": "Tinh thần bừng lửa GUTS",
+  "desc": "Bùng cháy cùng tinh thần đồng đội, tăng rất nhẹ khí thế tỉ lệ với tổng Guts của các thành viên đội đua vào cuối chặng."
+ },
+ "210051": {
+  "name": "Tinh thần rực cháy WIT",
+  "desc": "Bùng cháy cùng tinh thần đồng đội, tăng khả năng luồn lách chiến thuật trong thời gian vừa phải tỉ lệ với tổng Wit của các thành viên đội đua vào đầu chặng."
+ },
+ "210052": {
+  "name": "Tinh thần bừng lửa WIT",
+  "desc": "Bùng cháy cùng tinh thần đồng đội, tăng nhẹ khả năng luồn lách chiến thuật trong thời gian vừa phải tỉ lệ với tổng Wit của các thành viên đội đua vào đầu chặng."
+ },
+ "210061": {
+  "name": "Ngôi sao rạng ngời",
+  "desc": "Điều hòa nhịp thở và bứt lên trong nửa sau cuộc đua. Hiệu ứng tăng tỉ lệ với số trận thắng trong sự nghiệp."
+ },
+ "210062": {
+  "name": "Ngôi sao lấp lánh",
+  "desc": "Điều hòa nhịp thở rất nhẹ và bứt lên trong nửa sau cuộc đua. Hiệu ứng tăng tỉ lệ với số trận thắng trong sự nghiệp."
+ },
+ "210071": {
+  "name": "Muốn Chiến Thắng Cùng Bạn",
+  "desc": "Tăng tốc độ và tăng nhẹ gia tốc khi ở nhóm đầu trong nửa sau cuộc đua. Hiệu quả của kỹ năng tăng theo số lượng người hâm mộ."
+ },
+ "210072": {
+  "name": "Trên Đường Đến Ước Mơ",
+  "desc": "Tăng nhẹ tốc độ và tăng gia tốc cực nhẹ khi ở nhóm đầu trong nửa sau cuộc đua. Hiệu quả tăng theo số lượng fan."
+ },
+ "210081": {
+  "name": "Vượt Qua Giới Hạn",
+  "desc": "Tăng tốc độ trong nước rút cuối. Hiệu quả của kỹ năng tăng theo giá trị chỉ số cao nhất."
+ },
+ "210082": {
+  "name": "Hướng Về Đích",
+  "desc": "Tăng nhẹ tốc độ trong nước rút cuối. Hiệu quả của kỹ năng tăng theo giá trị chỉ số cao nhất."
+ },
+ "210091": {
+  "name": "Tinh Thần Đua: Tốc Độ",
+  "desc": "Tăng nhẹ tốc độ khi sắp vào cuối chặng."
+ },
+ "210101": {
+  "name": "Tinh Thần Đua: Sức Bền",
+  "desc": "Tiêu hao thể lực vừa phải để tăng tốc độ vừa phải trong nước rút cuối."
+ },
+ "210111": {
+  "name": "Tinh Thần Đua: Sức Mạnh",
+  "desc": "Tăng nhẹ tốc độ trong thời gian trung bình khi cố vượt đối thủ trong nước rút cuối."
+ },
+ "210121": {
+  "name": "Tinh Thần Đua: Ý Chí",
+  "desc": "Tăng nhẹ gia tốc khi đang so kè."
+ },
+ "210131": {
+  "name": "Tinh Thần Đua: Trí Tuệ",
+  "desc": "Tăng nhẹ tốc độ khi kích hoạt 2 kỹ năng trong nửa sau cuộc đua."
+ },
+ "210141": {
+  "name": "Tinh Thần Đua: Tâm Trạng",
+  "desc": "Stamina, Guts và Wit có thể tăng vừa phải khi tâm trạng Tốt hoặc Tuyệt vời."
+ },
+ "300011": {
+  "name": "Khát khao chưa nguôi",
+  "desc": "Tăng phong độ vừa phải nhờ khao khát được đua."
+ },
+ "300021": {
+  "name": "Không đổi thay",
+  "desc": "Tăng mạnh phong độ với hoài bão vẫn vẹn nguyên như ngày xưa."
+ },
+ "300031": {
+  "name": "Hướng về khung cảnh mình tìm kiếm",
+  "desc": "Tăng phong độ vừa phải khi theo đuổi khung cảnh hằng mong ước bấy lâu."
+ },
+ "300041": {
+  "name": "Lo âu len lỏi",
+  "desc": "Giảm phong độ vừa phải do sự lo lắng của Trainer."
+ },
+ "300051": {
+  "name": "Nỗi sợ lộ rõ",
+  "desc": "Giảm mạnh tốc độ ở khúc cua trong nửa sau cuộc đua do sự lo lắng lộ rõ của Trainer."
+ },
+ "300061": {
+  "name": "Đường chạy ước mơ",
+  "desc": "Tăng tốc độ trên đoạn thẳng cuối nhờ khát khao mãnh liệt được về đích mang theo hy vọng và ước mơ của mọi người."
+ },
+ "300071": {
+  "name": "Cho tớ thấy điều phía trước!",
+  "desc": "Tăng phong độ vừa phải cho Silence Suzuka nhờ mong muốn thấy cô ấy chạm tới những tầm cao mới."
+ },
+ "300081": {
+  "name": "Hoiya! Chạy tốt nhé!",
+  "desc": "Tăng phong độ vừa phải cho Silence Suzuka nhờ lá bùa bảo đảm một lượt chạy mãn nguyện."
+ },
+ "300091": {
+  "name": "Là bạn và là đối thủ",
+  "desc": "Tăng phong độ vừa phải cho Silence Suzuka nhờ niềm vui khi thấy bạn mình tìm ra lối chạy của riêng mình."
+ },
+ "300101": {
+  "name": "Lời cổ vũ của người cùng mơ ước",
+  "desc": "Hồi thể lực cho Silence Suzuka ở khúc cua trong nửa sau cuộc đua nhờ lời cổ vũ của một người bạn."
+ },
+ "300111": {
+  "name": "Ngẩng cao đầu, Umamusume Derby!",
+  "desc": "Cảm thấy gần hơn với danh hiệu tay đua số một Nhật Bản, tăng phong độ vừa phải."
+ },
+ "300121": {
+  "name": "Vì cả đội",
+  "desc": "Cả đội vô cùng quyết tâm giành chiến thắng trong cuộc đua đặc biệt này, tăng mạnh phong độ."
+ },
+ "300131": {
+  "name": "Bá Chủ Nhật Bản",
+  "desc": "Tôi sẽ dốc toàn lực cho việc này!"
+ },
+ "300141": {
+  "name": "Bất Khuất",
+  "desc": "Tôi sẽ đứng lên đối mặt thử thách!"
+ },
+ "1000011": {
+  "name": "Thưởng Lễ hội",
+  "desc": "Tăng chỉ số thêm +{0}％ trong Racing Carnival. Có {1}％ khả năng nâng tâm trạng của Uma lên Tuyệt vời. Kỹ năng này sẽ biến mất khi sự kiện kết thúc."
+ },
+ "1000012": {
+  "name": "Thưởng Lễ Hội",
+  "desc": "Tăng các chỉ số thêm +{0}％ trong Racing Carnival. Có {1}％ cơ hội nâng tâm trạng lên Tuyệt vời. Kỹ năng này sẽ biến mất khi sự kiện kết thúc."
+ },
+ "1100011": {
+  "name": "Hơi Ngớ Ngẩn",
+  "desc": "Giảm mạnh khả năng xuất phát. Hiệu ứng gồm xuất phát chậm và giảm gia tốc khi xuất phát. Bị loại bỏ khi kết thúc lượt Career."
+ },
+ "1200011": {
+  "name": "Đam Mê Đua Trung",
+  "desc": "Tăng phong độ trong các cuộc đua Sân cỏ cự ly Trung. Kỹ năng này chỉ dành riêng cho sự kiện."
+ },
+ "1200021": {
+  "name": "Đam Mê Đua Dài",
+  "desc": "Tăng phong độ trong các cuộc đua Sân cỏ cự ly Dài. Kỹ năng này chỉ dành riêng cho sự kiện."
+ },
+ "1200031": {
+  "name": "Đam Mê Đua Dặm",
+  "desc": "Tăng phong độ trong các cuộc đua Sân cỏ cự ly Dặm. Kỹ năng này chỉ dành riêng cho sự kiện."
+ },
+ "1200041": {
+  "name": "Đam Mê Đua Ngắn",
+  "desc": "Tăng phong độ trong các cuộc đua Sân cỏ cự ly Ngắn. (Dành riêng cho sự kiện)"
+ },
+ "1200051": {
+  "name": "Đam Mê Đua Sân Đất",
+  "desc": "Tăng phong độ trong các cuộc đua Sân đất cự ly Trung. (Dành riêng cho sự kiện)"
+ }
+}
