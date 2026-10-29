@@ -1,6 +1,6 @@
 # Uma Wiki VI
 
-Trang web tĩnh tra cứu Support Card và Kỹ năng của **Umamusume: Pretty Derby bản Global**, có bản dịch tiếng Việt.
+Trang web tĩnh tra cứu Support Card, Kỹ năng và lịch Champions Meeting của **Umamusume: Pretty Derby bản Global**, có bản dịch tiếng Việt.
 
 ## Xem trang
 - Online: https://vihkag.github.io/uma-wiki-vi/
@@ -20,9 +20,10 @@ node scripts/update.mjs        # hoặc nhấp đúp cap-nhat.bat
 
 Script sẽ:
 1. Tải dữ liệu mới nhất từ GameTora. Chỉ lấy card có ngày ra mắt Global và kỹ năng đã có ở Global.
-2. Tải icon kỹ năng và ảnh card còn thiếu vào `site/img/`.
-3. Ghép bản dịch tiếng Việt rồi ghi ra `site/data/data.js`.
-4. Liệt kê kỹ năng mới chưa có bản dịch vào `i18n/missing-skills.json`. Trên web, các kỹ năng này hiện tiếng Anh kèm nhãn "Chưa dịch".
+2. Cập nhật lịch Champions Meeting gồm kỳ đang diễn ra và 2 kỳ sắp tới. Ngày dự kiến lấy theo dự đoán của GameTora, thông số đường đua lấy từ kỳ tương ứng ở bản Nhật, kèm sơ đồ đường đua và kỹ năng phù hợp.
+3. Tải icon kỹ năng và ảnh card còn thiếu vào `site/img/`.
+4. Ghép bản dịch tiếng Việt rồi ghi ra `site/data/data.js`.
+5. Liệt kê kỹ năng mới chưa có bản dịch vào `i18n/missing-skills.json`. Trên web, các kỹ năng này hiện tiếng Anh kèm nhãn "Chưa dịch".
 
 ### Dịch kỹ năng mới
 Thêm vào `i18n/vi-skills.json` theo dạng:

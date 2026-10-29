@@ -20,6 +20,7 @@
     <nav class="tabs" role="tablist">
       <a href="#cards" data-tab="cards"><span class="ti">🃏</span><span>Support Card</span></a>
       <a href="#skills" data-tab="skills"><span class="ti">✨</span><span>Kỹ năng</span></a>
+      <a href="#cm" data-tab="cm"><span class="ti">🏆</span><span class="lbl-long">Champions Meeting</span><span class="lbl-short">CM</span></a>
       <a href="#effects" data-tab="effects"><span class="ti">📖</span><span>Chỉ số</span></a>
     </nav>
     <button id="theme" class="icon-btn" title="Đổi giao diện sáng/tối" aria-label="Đổi giao diện sáng/tối">◐</button>
@@ -74,6 +75,18 @@
       </div>
       <p class="count" id="skill-count"></p>
       <div class="skill-list" id="skill-list"></div>
+    </section>
+
+    <!-- CHAMPIONS MEETING -->
+    <section id="tab-cm" class="tab" hidden>
+      <div id="cm-list"></div>
+      <details class="cm-past">
+        <summary>Các kỳ đã diễn ra gần đây</summary>
+        <div id="cm-past"></div>
+      </details>
+      <p class="note">Ngày của các kỳ <b>dự kiến</b> là ước tính của GameTora theo lịch bản Nhật, có thể lệch vài ngày.
+        Thông số đường đua của kỳ dự kiến lấy từ kỳ cùng số thứ tự ở bản Nhật, vì bản Global đi đúng thứ tự này.
+        Danh sách kỹ năng được lọc tự động theo điều kiện kích hoạt gắn với đường đua (trường đua, cự ly, hướng, mùa, thời tiết, mặt sân).</p>
     </section>
 
     <!-- EFFECTS -->

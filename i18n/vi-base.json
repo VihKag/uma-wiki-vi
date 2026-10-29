@@ -56,6 +56,33 @@
     "cor": "Khúc cua", "str": "Đoạn thẳng", "slo": "Dốc", "f_c": "Cua cuối", "f_s": "Thẳng cuối",
     "dbf": "Gây bất lợi", "nac": "Cần điều kiện vị trí"
   },
+  "cm": {
+    "tracks": {
+      "10001": "Sapporo", "10002": "Hakodate", "10003": "Niigata", "10004": "Fukushima", "10005": "Nakayama",
+      "10006": "Tokyo", "10007": "Chukyo", "10008": "Kyoto", "10009": "Hanshin", "10010": "Kokura",
+      "10101": "Ooi", "10103": "Kawasaki", "10104": "Funabashi", "10105": "Morioka",
+      "10201": "Longchamp (Pháp)", "10202": "Santa Anita Park (Mỹ)", "10203": "Del Mar (Mỹ)"
+    },
+    "statThresholds": { "1": "Speed", "2": "Stamina", "3": "Power", "4": "Guts", "5": "Wit" },
+    "inout": { "1": "", "2": "Vòng trong", "3": "Vòng ngoài", "4": "Vòng ngoài → trong" },
+    "ground": { "1": "Sân cỏ (Turf)", "2": "Sân đất (Dirt)" },
+    "turn": { "1": "Thuận phải (Right)", "2": "Thuận trái (Left)", "3": "Đường thẳng", "4": "Thuận phải (Right)" },
+    "season": { "1": "Xuân (Spring)", "2": "Hạ (Summer)", "3": "Thu (Fall)", "4": "Đông (Winter)", "5": "Xuân – hoa anh đào" },
+    "weather": { "1": "Nắng (Sunny)", "2": "Nhiều mây (Cloudy)", "3": "Mưa (Rainy)", "4": "Tuyết (Snowy)" },
+    "condition": { "1": "Khô ráo (Firm)", "2": "Hơi ẩm (Good)", "3": "Ẩm (Soft)", "4": "Lầy (Heavy)" },
+    "distance": { "1": "Ngắn (Sprint)", "2": "Dặm (Mile)", "3": "Trung (Medium)", "4": "Dài (Long)" },
+    "cups": {
+      "Aries Cup": "Cúp Bạch Dương", "Taurus Cup": "Cúp Kim Ngưu", "Gemini Cup": "Cúp Song Tử",
+      "Cancer Cup": "Cúp Cự Giải", "Leo Cup": "Cúp Sư Tử", "Virgo Cup": "Cúp Xử Nữ",
+      "Libra Cup": "Cúp Thiên Bình", "Scorpio Cup": "Cúp Thiên Yết", "Sagittarius Cup": "Cúp Nhân Mã",
+      "Capricorn Cup": "Cúp Ma Kết", "Aquarius Cup": "Cúp Bảo Bình", "Pisces Cup": "Cúp Song Ngư"
+    },
+    "matchGroups": {
+      "track_id": "Theo trường đua", "rotation": "Theo hướng đường đua", "season": "Theo mùa",
+      "weather": "Theo thời tiết", "ground_condition": "Theo tình trạng mặt sân", "ground_type": "Theo loại sân",
+      "distance_type": "Theo cự ly", "is_basis_distance": "Cự ly chuẩn / không chuẩn"
+    }
+  },
   "skillEffects": {
     "1": "Speed", "2": "Stamina", "3": "Power", "4": "Guts", "5": "Wit",
     "9": "Hồi thể lực", "21": "Tốc độ", "22": "Tốc độ", "27": "Tốc độ",

@@ -14,7 +14,14 @@ const UA = { "User-Agent": "Mozilla/5.0 (UmaWiki-VI static builder)" };
 const OFFLINE = process.argv.includes("--offline");
 const REGION = "en"; // Global
 
-const SOURCES = ["skills", "support-cards", "support_effects"];
+const SOURCES = [
+  "skills", "support-cards", "support_effects",
+  "en/events/champions-meeting", // lịch CM bản Global đã công bố
+  "events/champions-meeting",    // CM bản Nhật: Global đi theo đúng thứ tự id, dùng để biết đường đua kỳ sắp tới
+  "en/foresight/timeline",       // GameTora dự đoán ngày các kỳ CM Global sắp tới
+  "racetracks",                  // bố cục đường đua: khúc cua, đoạn thẳng, dốc, giai đoạn
+];
+const rawFile = (name) => path.join(RAW, `${name.replace(/\//g, "_")}.json`);
 // Mốc level tương ứng với 11 giá trị trong mảng effects của card
 const LEVELS = [1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
 const MAX_LEVEL = { 1: 40, 2: 45, 3: 50 };
@@ -37,8 +44,8 @@ async function fetchRaw() {
     const hash = manifest[name];
     if (!hash) throw new Error(`Manifest không còn mục "${name}" — cấu trúc GameTora có thể đã đổi`);
     const data = await getJSON(`${BASE}/data/umamusume/${name}.${hash}.json`);
-    await fs.writeFile(path.join(RAW, `${name}.json`), JSON.stringify(data));
-    console.log(`  ✓ ${name} (${hash}) — ${data.length} mục`);
+    await fs.writeFile(rawFile(name), JSON.stringify(data));
+    console.log(`  ✓ ${name} (${hash})${Array.isArray(data) ? ` — ${data.length} mục` : ""}`);
   }
 }
 
@@ -130,19 +137,94 @@ function build(skillsRaw, cardsRaw, effectsRaw, vi, viSkills) {
   return { skills: outSkills, cards: outCards, effects: outEffects, missing };
 }
 
+/* ---------- Champions Meeting ---------- */
+// Phân loại cự ly theo quy ước của game
+const distanceType = (m) => (m <= 1400 ? 1 : m <= 1800 ? 2 : m <= 2400 ? 3 : 4);
+
+// Giá trị các biến điều kiện "tĩnh" (cố định theo đường đua) của một kỳ CM
+function staticVars(race) {
+  return {
+    track_id: race.track, rotation: race.turn, season: race.season, weather: race.weather,
+    ground_condition: race.condition, ground_type: race.ground,
+    distance_type: distanceType(race.distance), is_basis_distance: race.distance % 400 === 0 ? 1 : 0,
+  };
+}
+
+const OPS = { "==": (a, b) => a === b, "!=": (a, b) => a !== b, ">=": (a, b) => a >= b, "<=": (a, b) => a <= b, ">": (a, b) => a > b, "<": (a, b) => a < b };
+
+// Trả về danh sách biến tĩnh đã khớp nếu kỹ năng có điều kiện gắn với đường đua và đường đua thỏa mãn; ngược lại null.
+// Điều kiện dạng "a==1&b>=2@c==3": "@" là HOẶC, "&" là VÀ.
+function courseMatch(skill, vars) {
+  for (const g of skill.condition_groups || []) {
+    for (const cond of [g.condition, g.precondition].filter(Boolean)) {
+      for (const alt of cond.split("@")) {
+        const hits = [];
+        let ok = true;
+        for (const clause of alt.split("&")) {
+          const m = clause.match(/^([a-z_0-9]+)(==|!=|>=|<=|>|<)(-?\d+)$/);
+          if (!m || !(m[1] in vars)) continue;
+          if (OPS[m[2]](vars[m[1]], +m[3])) hits.push(m[1]); else { ok = false; break; }
+        }
+        if (ok && hits.length) return [...new Set(hits)];
+      }
+    }
+  }
+  return null;
+}
+
+// Tìm đường đua khớp với kỳ CM: cùng trường đua, cùng độ dài, cùng loại sân (đã kiểm tra: mọi kỳ đều khớp đúng 1)
+function findCourse(tracks, race) {
+  const cand = (tracks.get(race.track)?.courses || []).filter((k) => k.length === race.distance && k.terrain === race.ground);
+  const c = cand.find((k) => k.turn === race.turn) || cand[0];
+  if (!c) return null;
+  return {
+    inout: c.inout, phases: c.phases, corners: c.corners, straights: c.straights, slopes: c.slopes,
+    spurt: c.spurtStart?.meters ?? null, stats: c.statThresholds || [],
+  };
+}
+
+function buildCM(enCM, jpCM, timeline, racetracks, skillsRaw) {
+  const tracks = new Map(racetracks.map((t) => [+t.id, t]));
+  const jpById = new Map(jpCM.map((c) => [c.id, c]));
+  const enIds = new Set(enCM.map((c) => c.id));
+  const list = [
+    ...enCM.map((c) => ({ id: c.id, name: c.name, start: c.start, end: c.end, race: c.race, estimated: false })),
+    ...(timeline.future_cm || []).filter((f) => !enIds.has(f.id) && jpById.has(f.id)).map((f) => ({
+      id: f.id, name: f.name_en || jpById.get(f.id).name, start: f.display_start, end: null,
+      race: jpById.get(f.id).race, estimated: true,
+    })),
+  ].sort((a, b) => a.id - b.id);
+
+  // Bỏ kỹ năng tự gây bất lợi cho bản thân (giá trị âm, không nhắm đối thủ) như "Right-Handed ×"
+  const selfNegative = (s) => (s.condition_groups || []).some((g) => g.effects.some((e) => e.value < 0 && !e.target));
+  const pool = skillsRaw.filter((s) => released(s) && !selfNegative(s));
+  for (const cm of list) {
+    const vars = staticVars(cm.race);
+    cm.distanceType = vars.distance_type;
+    cm.course = findCourse(tracks, cm.race);
+    cm.skills = [];
+    for (const s of pool) {
+      const hits = courseMatch(s, vars);
+      if (hits) cm.skills.push([s.id, hits]);
+    }
+  }
+  return list;
+}
+
 async function main() {
   console.log(`== Umamusume VI wiki — build dữ liệu ${REGION.toUpperCase()} ==`);
   if (!OFFLINE) {
     console.log("Tải dữ liệu từ GameTora…");
     await fetchRaw();
   }
-  const [skillsRaw, cardsRaw, effectsRaw] = await Promise.all(
-    SOURCES.map((n) => readJSON(path.join(RAW, `${n}.json`)))
+  const [skillsRaw, cardsRaw, effectsRaw, enCM, jpCM, timeline, racetracks] = await Promise.all(
+    SOURCES.map((n) => readJSON(rawFile(n)))
   );
   const vi = await readJSON(path.join(I18N, "vi-base.json"));
   const viSkills = await readJSON(path.join(I18N, "vi-skills.json"), {});
 
   const data = build(skillsRaw, cardsRaw, effectsRaw, vi, viSkills);
+  data.cm = buildCM(enCM, jpCM, timeline, racetracks, skillsRaw);
 
   if (!OFFLINE) {
     console.log("Tải ảnh còn thiếu…");
@@ -165,7 +247,7 @@ async function main() {
     region: REGION,
     builtAt: new Date().toISOString(),
     labels: { cardTypes: vi.cardTypes, obtained: vi.obtained, hintStats: vi.hintStats,
-      skillRarity: vi.skillRarity, skillTags: vi.skillTags, skillEffects: vi.skillEffects },
+      skillRarity: vi.skillRarity, skillTags: vi.skillTags, skillEffects: vi.skillEffects, cm: vi.cm },
     levels: LEVELS,
   };
   await fs.mkdir(path.join(SITE, "data"), { recursive: true });
@@ -173,7 +255,7 @@ async function main() {
     "// Tự động sinh bởi scripts/update.mjs — đừng sửa tay\nwindow.UMA = " + JSON.stringify(payload) + ";\n");
 
   await fs.writeFile(path.join(I18N, "missing-skills.json"), JSON.stringify(missing, null, 1));
-  console.log(`Xong: ${payload.cards.length} card, ${payload.skills.length} kỹ năng.`);
+  console.log(`Xong: ${payload.cards.length} card, ${payload.skills.length} kỹ năng, ${payload.cm.length} kỳ Champions Meeting.`);
   if (missing.length) {
     console.log(`⚠ ${missing.length} kỹ năng chưa có bản dịch → i18n/missing-skills.json (web sẽ hiển thị tiếng Anh).`);
     console.log("  Dịch xong thì thêm vào i18n/vi-skills.json rồi chạy lại: node scripts/update.mjs --offline");
